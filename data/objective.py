@@ -2388,5 +2388,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Doutrina clássica da criminologia.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 240,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A função de Inteligência consiste em obter dados e processá-los para produzir conhecimentos destinados a assessorar o processo decisório.",
+        "gabarito": "C",
+        "justificativa": "Conceito básico da função de inteligência.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 241,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "As fases da produção de conhecimento são: Planejamento, Reunião, Análise e Disseminação.",
+        "gabarito": "C",
+        "justificativa": "Ciclo de Inteligência clássico.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 242,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção secundária atua sobre grupos específicos que apresentam maior risco de envolvimento com a criminalidade, como jovens em situação de vulnerabilidade.",
+        "gabarito": "C",
+        "justificativa": "Conceito de prevenção secundária vs. primária/terciária.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 243,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígio é todo objeto ou material bruto encontrado no local do crime que possa ter relação com o evento investigado.",
+        "gabarito": "C",
+        "justificativa": "Definição técnica de vestígio.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 244,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "A etapa de 'Lacre' na cadeia de custódia consiste no acondicionamento do vestígio em recipiente próprio, com selo numerado e individualizado.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, VII do CPP.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
