@@ -3248,5 +3248,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Conceito moderno de criminalística.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 330,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "A probabilidade de uma variável aleatória normal estar a mais de dois desvios padrão da média é de aproximadamente 5%.",
+        "gabarito": "C",
+        "justificativa": "Propriedade da curva normal (95% dentro de 2 desvios).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 331,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A memória cache L1 é integrada ao núcleo do processador e possui menor latência que a memória cache L2.",
+        "gabarito": "C",
+        "justificativa": "Hierarquia de memória cache.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 332,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "Toda pessoa detida ou retida deve ser conduzida, sem demora, à presença de um juiz ou outra autoridade autorizada pela lei a exercer funções judiciais.",
+        "gabarito": "C",
+        "justificativa": "Art. 7.5 da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 333,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "Constituem dívida flutuante os restos a pagar, excluídos os serviços da dívida, e os depósitos.",
+        "gabarito": "C",
+        "justificativa": "Art. 92 da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 334,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "A convocação extraordinária do Congresso Nacional far-se-á, em caso de urgência ou interesse público relevante, por solicitação do Presidente da República ou dos Presidentes da Câmara e do Senado.",
+        "gabarito": "C",
+        "justificativa": "Art. 57, §6º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
