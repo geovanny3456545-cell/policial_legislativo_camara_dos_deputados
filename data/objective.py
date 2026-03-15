@@ -2488,5 +2488,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Prática comum em ciência de dados.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 250,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "Se a proposição p é verdadeira e q é falsa, então o condicional 'se p então q' é falso.",
+        "gabarito": "C",
+        "justificativa": "Tabela-verdade da condicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 251,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se todo policial é dedicado e algum dedicado é herói, então necessariamente algum policial é herói.",
+        "gabarito": "E",
+        "justificativa": "O termo 'dedicado' pode ser maior que o conjunto de policiais, não garantindo a interseção entre policiais e heróis.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 252,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A memória RAM é do tipo volátil, o que significa que seus dados são perdidos quando a alimentação elétrica é interrompida.",
+        "gabarito": "C",
+        "justificativa": "Conceito de memória volátil.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 253,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "Na computação em nuvem, o modelo SaaS (Software as a Service) permite ao usuário acessar aplicativos via internet sem se preocupar com a infraestrutura subjacente.",
+        "gabarito": "C",
+        "justificativa": "Definição de SaaS.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 254,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Alucinação em modelos de linguagem refere-se à geração de informações factualmente incorretas ou sem sentido que parecem plausíveis.",
+        "gabarito": "C",
+        "justificativa": "Conceito moderno de IA.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
