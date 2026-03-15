@@ -3298,5 +3298,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 57, §6º da CF/88.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 335,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A equivalência da proposição 'P -> Q' pode ser dada por '~Q -> ~P' (contrapositiva) ou por '~P v Q' (disjunção).",
+        "gabarito": "C",
+        "justificativa": "Equivalências fundamentais da condicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 336,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.",
+        "gabarito": "C",
+        "justificativa": "Princípio da Inafastabilidade da Jurisdição (Art. 5º, XXXV da CF/88).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 337,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A arquitetura de Von Neumann caracteriza-se pela separação física entre a memória de dados e a memória de programas.",
+        "gabarito": "E",
+        "justificativa": "A arquitetura de Harvard é que separa as memórias; na de Von Neumann, dados e instruções compartilham o mesmo barramento e memória.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 338,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O uso de algemas é a regra em toda e qualquer prisão, visando garantir a segurança do policial e evitar a fuga do preso.",
+        "gabarito": "E",
+        "justificativa": "Súmula Vinculante 11 do STF (caráter excepcional).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 339,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "O silêncio administrativo, via de regra, não produz efeitos jurídicos, salvo se houver lei que lhe atribua valor positivo ou negativo após o transcurso de prazo determinado.",
+        "gabarito": "C",
+        "justificativa": "Doutrina clássica sobre o silêncio da administração.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
