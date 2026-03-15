@@ -3348,5 +3348,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Doutrina clássica sobre o silêncio da administração.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 340,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "O uso de armas de fogo por agentes de segurança pública deve ser sempre a primeira opção em caso de confronto armado, visando a neutralização imediata da ameaça.",
+        "gabarito": "E",
+        "justificativa": "O uso da força deve ser progressivo, sendo a arma de fogo o último recurso.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 341,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "A curva da distribuição normal é perfeitamente simétrica em relação à sua média, o que implica que a média, a mediana e a moda coincidem no centro da distribuição.",
+        "gabarito": "C",
+        "justificativa": "Propriedade fundamental da curva de Gauss.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 342,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A memória ROM é do tipo volátil, perdendo seus dados quando a energia é desligada, servindo apenas para armazenamento temporário de instruções de inicialização.",
+        "gabarito": "E",
+        "justificativa": "A ROM é não-volátil.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 343,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "De acordo com a Lei 14.230/2021, o mero exercício da função pública ou o desempenho de competências legais, sem comprovação de ato doloso com fim ilícito, não caracteriza ato de improbidade.",
+        "gabarito": "C",
+        "justificativa": "Proteção contra a criminalização da hermenêutica/gestão.",
+        "fonte": "Inédita (Lei 14.230/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 344,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "É plena a liberdade de associação para fins lícitos, inclusive a de caráter paramilitar, desde que autorizada pelo Ministério da Justiça.",
+        "gabarito": "E",
+        "justificativa": "Vedada a associação de caráter paramilitar (Art. 5º, XVII).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
