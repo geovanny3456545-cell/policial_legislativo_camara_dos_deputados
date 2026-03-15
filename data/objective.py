@@ -2648,5 +2648,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Definição de amostragem estratificada.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 266,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder de polícia é a atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou a abstenção de fato, em razão de interesse público.",
+        "gabarito": "C",
+        "justificativa": "Art. 78 do CTN.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 267,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A responsabilidade civil do Estado no Brasil é objetiva, com base na teoria do risco administrativo, o que dispensa a vítima de provar a culpa do agente, mas admite excludentes como a culpa exclusiva da vítima.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, §6º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 268,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "Compete ao Presidente da República decretar e executar a intervenção federal.",
+        "gabarito": "C",
+        "justificativa": "Art. 84, X da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 269,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A Estratégia Nacional de Inteligência (ENI) é o documento que estabelece as orientações para a execução da Política Nacional de Inteligência.",
+        "gabarito": "C",
+        "justificativa": "Componente do Sistema Brasileiro de Inteligência.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 270,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização terciária refere-se ao abandono da vítima pelas instâncias de controle social informal (família, amigos) e formal, gerando um estigma social.",
+        "gabarito": "C",
+        "justificativa": "Conceito de vitimização terciária.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
