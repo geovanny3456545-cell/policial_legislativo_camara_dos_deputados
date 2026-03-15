@@ -2038,5 +2038,105 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 57, §6º da CF/88.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 205,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da publicidade é absoluto, não admitindo exceções nem mesmo em casos de segurança da sociedade e do Estado.",
+        "gabarito": "E",
+        "justificativa": "O próprio Art. 5º, XXXIII da CF/88 prevê exceções ao sigilo.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 206,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "A convalidação é o ato administrativo pelo qual é suprido um defeito em ato anterior, com efeitos retroativos à data em que este foi praticado.",
+        "gabarito": "C",
+        "justificativa": "Conceito de convalidação (Art. 55 da Lei 9.784/99).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 207,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "Nas contratações direta por dispensa de licitação, o administrador possui discricionariedade para escolher se licita ou não, desde que enquadrado nas hipóteses legais.",
+        "gabarito": "C",
+        "justificativa": "Diferença entre dispensa (discricionária) e licitação dispensada (vinculada).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 208,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder disciplinar permite que a Administração aplique sanções apenas aos seus servidores, não alcançando particulares com vínculo específico.",
+        "gabarito": "E",
+        "justificativa": "O poder disciplinar alcança servidores e particulares com vínculo específico (estudantes de escola pública, concessionários, etc).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 209,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "A Lei de Diretrizes Orçamentárias (LDO) compreenderá as metas e prioridades da administração pública federal, incluindo as despesas de capital para o exercício financeiro subsequente.",
+        "gabarito": "C",
+        "justificativa": "Art. 165, §2º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 210,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A teoria do risco integral, diferentemente da teoria do risco administrativo, não admite excludentes de responsabilidade como culpa exclusiva da vítima ou caso fortuito.",
+        "gabarito": "C",
+        "justificativa": "Risco integral é a forma radical da responsabilidade objetiva.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 211,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "O mero exercício da função ou desempenho de competências públicas, sem comprovação de ato doloso com fim ilícito, afasta a responsabilidade por ato de improbidade.",
+        "gabarito": "C",
+        "justificativa": "Art. 1º, §3º da Lei 8.429/92 (nova redação).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 212,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "Pelo princípio da impessoalidade, a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, §1º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 213,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "O ato administrativo inexistente é aquele que possui apenas aparência de ato, mas não chega a se formar por falta de elemento essencial ou por conter defeito insanável.",
+        "gabarito": "C",
+        "justificativa": "Doutrina de Hely Lopes Meirelles.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 214,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "A subcontratação parcial do objeto é admitida na Lei de Licitações, desde que prevista no edital e no contrato, e que não atinja a parcela de maior relevância técnica.",
+        "gabarito": "C",
+        "justificativa": "Art. 122 da Lei 14.133/2021.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
