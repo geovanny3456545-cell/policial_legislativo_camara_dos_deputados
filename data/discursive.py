@@ -2,6 +2,7 @@ DISCURSIVE_CASES = [
     {
         "id": "DP-001",
         "disciplina": "Direito Penal",
+        "grande_aposta": True,
         "titulo": "Peça Técnica: Crime contra a Administração Pública",
         "caso": "João, servidor da Câmara dos Deputados, utilizando-se da facilidade que o cargo lhe proporciona, subtrai um notebook pertencente ao patrimônio da Casa. O crime é descoberto por meio de câmeras de segurança.",
         "pergunta": "Com base no Direito Penal, redija uma peça técnica (até 50 linhas) abordando: 1) Tipicidade da conduta; 2) Causas de aumento de pena; 3) Possibilidade de aplicação do princípio da insignificância.",
@@ -20,6 +21,7 @@ DISCURSIVE_CASES = [
     {
         "id": "DP-002",
         "disciplina": "Direito Penal",
+        "grande_aposta": True,
         "titulo": "Peça Técnica: Corrupção Passiva vs. Concussão",
         "caso": "Um Policial Legislativo, durante uma ronda noturna, aborda um indivíduo em atitude suspeita nas dependências do Senado. O indivíduo, que portava drogas para consumo pessoal, oferece R$ 500,00 para não ser conduzido à delegacia. O policial aceita o valor e libera o indivíduo. Dias depois, o policial liga para o indivíduo e exige mais R$ 1.000,00 para 'esquecer definitivamente' o ocorrido, sob pena de denunciá-lo anonimamente.",
         "pergunta": "Redija um parecer técnico (até 50 linhas) analisando: 1) A capitulação jurídica da primeira conduta (aceite do suborno); 2) A capitulação jurídica da segunda conduta (exigência posterior); 3) O concurso de crimes e a natureza dos crimes praticados.",
@@ -38,6 +40,7 @@ DISCURSIVE_CASES = [
     {
         "id": "CPP-001",
         "disciplina": "Direito Processual Penal",
+        "grande_aposta": True,
         "titulo": "Peça Técnica: Cadeia de Custódia e Perícia em Local de Crime",
         "caso": "Durante a madrugada, ocorre um disparo de arma de fogo em um dos gabinetes da ala principal da Câmara dos Deputados. A equipe de prontidão da Polícia Legislativa isola a área. Ao chegar ao local, o perito oficial observa que o isolamento foi rompido para a entrada de uma equipe de limpeza solicitada por um assessor parlamentar antes do isolamento estar totalmente consolidado.",
         "pergunta": "Redija uma peça técnica (até 50 linhas) abordando: 1) As etapas da cadeia de custódia impactadas; 2) As consequências processuais da contaminação do local de crime; 3) A responsabilidade administrativa e penal do agente que violou o isolamento.",
@@ -56,6 +59,7 @@ DISCURSIVE_CASES = [
     {
         "id": "CPP-002",
         "disciplina": "Direito Processual Penal",
+        "grande_aposta": True,
         "titulo": "Peça Técnica: Inquérito Policial e Prisão Preventiva",
         "caso": "No curso de uma investigação da Polícia Legislativa sobre desvio de verbas de gabinete, identifica-se que um dos investigados está destruindo documentos originais e coagindo testemunhas (outros servidores). O Delegado de Polícia Civil, em auxílio à investigação, decide representar pela prisão preventiva.",
         "pergunta": "Redija uma peça técnica (até 50 linhas) abordando: 1) Os fundamentos da prisão preventiva presentes no caso (Art. 312 CPP); 2) A necessidade de contemporaneidade da medida; 3) A possibilidade de aplicação de medidas cautelares diversas da prisão.",
@@ -74,6 +78,7 @@ DISCURSIVE_CASES = [
     {
         "id": "AI-001",
         "disciplina": "Atividade de Inteligência",
+        "grande_aposta": True,
         "titulo": "Discursiva: Ciclo de Inteligência e PNI",
         "caso": "A Câmara dos Deputados identifica uma ameaça cibernética coordenada que visa exfiltrar dados sensíveis de comissões parlamentares de inquérito.",
         "pergunta": "Discorra (até 20 linhas) sobre como a Atividade de Inteligência e a Contrainteligência devem atuar nesse cenário, citando diretrizes da Política Nacional de Inteligência (Decreto 8.793/2016).",
@@ -89,6 +94,7 @@ DISCURSIVE_CASES = [
     {
         "id": "DH-001",
         "disciplina": "Direitos Humanos",
+        "grande_aposta": False,
         "titulo": "Discursiva: Uso da Força e Instrumentos de Menor Potencial Ofensivo",
         "caso": "Em uma manifestação nas imediações do Congresso, a Polícia Legislativa precisa conter um grupo que tenta invadir o Salão Verde. É utilizado spray de pimenta e granadas de efeito moral.",
         "pergunta": "Com base na Lei nº 13.060/2014 e no Código de Conduta da ONU, responda (até 20 linhas): 1) Os princípios que regem o uso da força; 2) A prioridade no uso de instrumentos de menor potencial ofensivo.",
@@ -101,5 +107,56 @@ DISCURSIVE_CASES = [
             "A Lei 13.060/2014 disciplina a prioridade de uso de instrumentos de menor potencial ofensivo, visando preservar a vida e a integridade física."
         ],
         "revisao_temas": ["Lei 13.060/2014", "Princípios do Uso da Força", "Controle Convencional"]
+    },
+    {
+        "id": "LEG-001",
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "grande_aposta": True,
+        "titulo": "Peça Técnica: Poder de Polícia da Câmara (Res 18/2003)",
+        "caso": "Um Deputado Federal é flagrado por um Policial Legislativo em posse de uma mala contendo R$ 200.000,00 em espécie, em situação que sugere o recebimento de vantagem indevida após a votação de um projeto de lei.",
+        "pergunta": "Redija uma peça técnica abordando: 1) A competência da Polícia Legislativa para realizar a prisão em flagrante de parlamentares; 2) Os limites e procedimentos previstos na Resolução 18/2003; 3) A comunicação imediata ao STF e as prerrogativas parlamentares.",
+        "quesitos": [
+            {"item": "Competência", "descricao": "Poder de polícia da Câmara nas suas dependências.", "peso": 10.0},
+            {"item": "Inafiançável", "descricao": "Imunidade formal: parlamentar só pode ser preso em flagrante por crime inafiançável.", "peso": 10.0},
+            {"item": "Procedimento", "descricao": "Lavratura do auto e remessa imediata ao STF.", "peso": 10.0}
+        ],
+        "espelho": [
+            "A Polícia Legislativa tem competência para o policiamento e manutenção da ordem (Res 18/2003). Parlamentares possuem imunidade formal e só podem ser presos em flagrante de crime inafiançável. O auto de prisão deve ser remetido em 24h ao STF, que decidirá sobre a manutenção da prisão."
+        ],
+        "revisao_temas": ["Imunidade Parlamentar", "Resolução 18/2003", "Auto de Prisão em Flagrante"]
+    },
+    {
+        "id": "DP-003",
+        "disciplina": "Direito Penal",
+        "grande_aposta": True,
+        "titulo": "Peça Técnica: Lavagem de Dinheiro no Poder Legislativo",
+        "caso": "Um assessor parlamentar utiliza contas bancárias de familiares (laranjas) para receber depósitos fracionados de valores oriundos de propina em contratos de manutenção da Câmara dos Deputados.",
+        "pergunta": "Analise: 1) A configuração do crime de Lavagem de Dinheiro (Lei 9.613/98); 2) A fase de 'Ocultação' ou 'Dissimulação'; 3) A autonomia do crime de lavagem em relação ao crime antecedente.",
+        "quesitos": [
+            {"item": "Lei 9.613/98", "descricao": "Identificar a conduta como branqueamento de capitais.", "peso": 10.0},
+            {"item": "Etapas", "descricao": "Identificar o fracionamento (smurfing) como técnica de lavagem.", "peso": 10.0},
+            {"item": "Autonomia", "descricao": "Independência processual do crime de lavagem (Art. 2º).", "peso": 10.0}
+        ],
+        "espelho": [
+            "A conduta configura o crime da Lei 9.613/98. A utilização de 'laranjas' e depósitos fracionados caracteriza a fase de ocultação. O crime de lavagem é autônomo, não exigindo condenação prévia pelo crime antecedente, bastando indícios de sua existência."
+        ],
+        "revisao_temas": ["Lei 9.613/98", "Smurfing", "Autonomia da Lavagem"]
+    },
+    {
+        "id": "CPP-003",
+        "disciplina": "Direito Processual Penal",
+        "grande_aposta": True,
+        "titulo": "Peça Técnica: Interceptação Telefônica vs. Quebra de Sigilo de Dados",
+        "caso": "A Polícia Legislativa, em investigação de crime organizado operando dentro da Casa, solicita acesso às mensagens de WhatsApp de um terminal funcional sem autorização judicial prévia, alegando urgência institucional.",
+        "pergunta": "Discorra sobre: 1) A necessidade de reserva de jurisdição para acesso a comunicações telemáticas; 2) A distinção entre dados estáticos e fluxo de comunicação; 3) A ilicitude da prova produzida sem ordem judicial.",
+        "quesitos": [
+            {"item": "Reserva de Jurisdição", "descricao": "Necessidade de autorização judicial conforme Art. 5º, XII, CF.", "peso": 10.0},
+            {"item": "Ilicitude", "descricao": "Prova ilícita e teoria dos frutos da árvore envenenada.", "peso": 10.0},
+            {"item": "STJ/STF", "descricao": "Jurisprudência sobre acesso a celular e mensagens de texto.", "peso": 10.0}
+        ],
+        "espelho": [
+            "O acesso a comunicações telemáticas (WhatsApp) exige autorização judicial. A alegada 'urgência institucional' não afasta a reserva de jurisdição. A prova obtida sem ordem é ilícita, contaminando as provas derivadas (Art. 157 CPP)."
+        ],
+        "revisao_temas": ["Lei 9.296/96", "Prova Ilícita", "Reserva de Jurisdição"]
     }
 ]

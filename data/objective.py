@@ -1908,5 +1908,75 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Transparência do processo legislativo.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 192,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "A União não intervirá nos Estados nem no Distrito Federal, exceto para manter a integridade nacional, pelir invasão estrangeira ou de uma unidade da Federação em outra, e pôr termo a grave comprometimento da ordem pública.",
+        "gabarito": "C",
+        "justificativa": "Art. 34, I, II e III da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 193,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "O decreto de intervenção, que especificará a amplitude, o prazo e as condições de execução, será submetido à apreciação do Congresso Nacional no prazo de 24 horas.",
+        "gabarito": "C",
+        "justificativa": "Art. 36, §1º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 194,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "São modalidades de licitação: pregão, concorrência, concurso, leilão e diálogo competitivo. A modalidade 'convite' foi extinta na nova lei.",
+        "gabarito": "C",
+        "justificativa": "Art. 28 da Lei 14.133/2021.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 195,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "O exercício financeiro coincidirá com o ano civil, abrangendo as receitas nela arrecadadas e as despesas nela legalmente empenhadas.",
+        "gabarito": "C",
+        "justificativa": "Art. 34 e 35 da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 196,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "O Policial Legislativo pode portar arma de fogo em todo o território nacional, desde que em serviço ou em razão dele, conforme regulamentação da Câmara.",
+        "gabarito": "C",
+        "justificativa": "Prerrogativa funcional da categoria.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 197,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "Qualquer pessoa poderá representar à autoridade administrativa competente para que seja instaurada investigação destinada a apurar a prática de ato de improbidade.",
+        "gabarito": "C",
+        "justificativa": "Art. 14 da Lei 8.429/92.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 198,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "Dados sensíveis, conforme a LGPD, são aqueles que revelam origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, II da LGPD.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
