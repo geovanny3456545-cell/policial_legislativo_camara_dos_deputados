@@ -2898,5 +2898,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Definição de controle social informal.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 291,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "Os Estados Partes comprometem-se a respeitar os direitos e liberdades nela reconhecidos e a garantir seu livre e pleno exercício a toda pessoa que esteja sob sua jurisdição, sem discriminação alguma.",
+        "gabarito": "C",
+        "justificativa": "Art. 1º da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 292,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete ao Congresso Nacional, com a sanção do Presidente da República, dispor sobre a fixação e modificação do efetivo das Forças Armadas.",
+        "gabarito": "C",
+        "justificativa": "Art. 48, VI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 293,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "A amostragem sistemática exige que a população seja ordenada de alguma forma e que a seleção ocorra a intervalos regulares.",
+        "gabarito": "C",
+        "justificativa": "Definição de amostragem sistemática.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 294,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O endereço IPv4 é composto por 32 bits, divididos em quatro octetos, permitindo aproximadamente 4,3 bilhões de endereços únicos.",
+        "gabarito": "C",
+        "justificativa": "Estrutura básica do IPv4.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 295,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A Lei 9.807/1999 estabelece normas para a organização e a manutenção de programas especiais de proteção a vítimas e a testemunhas ameaçadas.",
+        "gabarito": "C",
+        "justificativa": "Ementa da Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
