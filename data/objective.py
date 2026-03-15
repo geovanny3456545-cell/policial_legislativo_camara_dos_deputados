@@ -3198,5 +3198,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Definição de amostragem estratificada.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 325,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "A ação para a aplicação das sanções previstas na Lei de Improbidade Administrativa prescreve em oito anos, contados a partir da ocorrência do fato.",
+        "gabarito": "C",
+        "justificativa": "Art. 23 da Lei 8.429/92.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 326,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "A proposta de emenda à Constituição será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros.",
+        "gabarito": "C",
+        "justificativa": "Art. 60, §2º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 327,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "A quebra da cadeia de custódia do vestígio gera a nulidade absoluta da prova, independentemente da demonstração de prejuízo pela defesa.",
+        "gabarito": "E",
+        "justificativa": "A jurisprudência atual do STJ e STF tende a considerar que a quebra da cadeia de custódia gera irregularidade que deve ser analisada no conjunto probatório, não necessariamente nulidade absoluta automática sem prejuízo.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 328,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "O reconhecimento, no contexto das operações de inteligência, é a técnica voltada para a obtenção de dados sobre o terreno, infraestrutura e rotinas de um alvo específico.",
+        "gabarito": "C",
+        "justificativa": "Doutrina de Operações de Inteligência.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 329,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "A Criminalística é uma disciplina autônoma que utiliza conhecimentos das ciências exatas, naturais e biológicas para o esclarecimento de fatos delituosos.",
+        "gabarito": "C",
+        "justificativa": "Conceito moderno de criminalística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
