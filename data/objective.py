@@ -2948,5 +2948,105 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Ementa da Lei 9.807/99.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 300,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "A ação para a aplicação das sanções previstas na Lei de Improbidade Administrativa prescreve em oito anos, contados a partir da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.",
+        "gabarito": "C",
+        "justificativa": "Art. 23 da Lei 8.429/92 (alterada pela Lei 14.230/21).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 301,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "O veto do Presidente da República pode ser total ou parcial e deve ser apreciado pelo Congresso Nacional dentro de trinta dias a contar de seu recebimento.",
+        "gabarito": "C",
+        "justificativa": "Art. 66, §4º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 302,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "Hans Gross é considerado o pai da criminalística moderna, tendo sistematizado o conhecimento pericial em sua obra 'Manual de Instrução para Juízes de Instrução'.",
+        "gabarito": "C",
+        "justificativa": "Fundamento histórico da criminalística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 303,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "A dispensa de licitação em razão do valor, na Lei 14.133/2021, é permitida para contratações de obras e serviços de engenharia ou de serviços de manutenção de veículos automotores de valor inferior a R$ 100.000,00.",
+        "gabarito": "C",
+        "justificativa": "Art. 75, I da Lei 14.133/21 (valor atualizado periodicamente).",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 304,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder hierárquico permite que o superior aplique sanções aos seus subordinados, enquanto o poder disciplinar é voltado para a aplicação de sanções a particulares com vínculo específico com a Administração.",
+        "gabarito": "E",
+        "justificativa": "O poder disciplinar é que permite a aplicação de sanções tanto a servidores (hierarquia) quanto a particulares com vínculo (contratos).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 305,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se a afirmação 'Algum policial é corrupto' for verdadeira, então a afirmação 'Nenhum policial é corrupto' é necessariamente falsa.",
+        "gabarito": "C",
+        "justificativa": "Relação de contradição entre 'Algum' e 'Nenhum'.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 306,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A negação de 'Se estudo, passo' é 'Estudo e não passo'.",
+        "gabarito": "C",
+        "justificativa": "Negação da condicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 307,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "O princípio da integridade garante que a informação não seja alterada por pessoas não autorizadas durante o seu trânsito ou armazenamento.",
+        "gabarito": "C",
+        "justificativa": "Conceito de segurança da informação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 308,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "A Variedade no Big Data refere-se à capacidade de processar dados em diferentes formatos, como texto, áudio, vídeo e logs de sensores.",
+        "gabarito": "C",
+        "justificativa": "Um dos 5 Vs do Big Data.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 309,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O DNS (Domain Name System) é o protocolo responsável por traduzir nomes de domínio em endereços IP.",
+        "gabarito": "C",
+        "justificativa": "Conceito de redes.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
