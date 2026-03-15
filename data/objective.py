@@ -1368,5 +1368,195 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Voluntariedade é princípio da Lei 9.807/99.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 138,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "A proposição 'Se o candidato estuda, então ele passa' é logicamente equivalente a 'O candidato não estuda ou ele passa'.",
+        "gabarito": "C",
+        "justificativa": "Equivalência lógica (P -> Q) <=> (~P v Q).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 139,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se 'Todo Policial Legislativo é destemido' e 'Alguns destemidos são atletas', então pode-se concluir que 'Algum Policial Legislativo é atleta'.",
+        "gabarito": "E",
+        "justificativa": "Diagramas lógicos: A interseção entre 'Policial' e 'Atleta' não é garantida pelas premissas.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 140,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "O coeficiente de variação é uma medida de dispersão relativa, calculada pela razão entre o desvio padrão e a média do conjunto de dados.",
+        "gabarito": "C",
+        "justificativa": "Definição de CV = (S / X_barra) * 100%.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 141,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "Em uma distribuição normal, aproximadamente 68% dos dados estão contidos no intervalo entre a média menos um desvio padrão e a média mais um desvio padrão.",
+        "gabarito": "C",
+        "justificativa": "Regra empírica da distribuição normal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 142,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A mediana é uma medida de tendência central que não é influenciada por valores extremos (outliers).",
+        "gabarito": "C",
+        "justificativa": "Propriedade da robustez da mediana.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 143,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "Na amostragem estratificada, a população é dividida em subgrupos homogêneos (estratos), e uma amostra aleatória é extraída de cada estrato.",
+        "gabarito": "C",
+        "justificativa": "Definição técnica de amostragem estratificada.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 144,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "A negação de 'Todos os servidores são honestos' é 'Nenhum servidor é honesto'.",
+        "gabarito": "E",
+        "justificativa": "A negação de 'Todo A é B' é 'Pelo menos um A não é B'.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 145,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A proposição 'P e Q' é logicamente equivalente a 'não (não P ou não Q)'.",
+        "gabarito": "C",
+        "justificativa": "Leis de De Morgan aplicada à conjunção.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 146,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "A variância de um conjunto de dados constantes é igual a 1.",
+        "gabarito": "E",
+        "justificativa": "A variância de dados constantes é 0 (não há dispersão).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 147,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "A distribuição normal é assimétrica e possui duas modas (bimodal).",
+        "gabarito": "E",
+        "justificativa": "A distribuição normal é perfeitamente simétrica e unimodal (Média = Mediana = Moda).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 148,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "Uma tautologia é uma proposição composta que é sempre verdadeira, independentemente dos valores lógicos das proposições simples que a compõem.",
+        "gabarito": "C",
+        "justificativa": "Definição de tautologia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 149,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "A afirmação 'Algum A é B' é logicamente equivalente a 'Pelo menos um A é B'.",
+        "gabarito": "C",
+        "justificativa": "Sinônimos em lógica de primeira ordem.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 150,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "'Se corro, então canso' é equivalente a 'Não corro ou canso'.",
+        "gabarito": "C",
+        "justificativa": "Equivalência de implicação (P->Q <=> ~PvQ).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 151,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "A variância é expressa na mesma unidade de medida que a média aritmética dos dados.",
+        "gabarito": "E",
+        "justificativa": "A variância é expressa na unidade ao quadrado. O desvio padrão é que possui a mesma unidade.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 152,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "A padronização permite comparar valores de diferentes conjuntos de dados que possuem diferentes médias e desvios padrão.",
+        "gabarito": "C",
+        "justificativa": "Objetivo do escore Z.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 153,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Outliers são sempre erros de coleta de dados e devem ser eliminados antes de qualquer análise estatística.",
+        "gabarito": "E",
+        "justificativa": "Podem ser erros, mas também podem ser descobertas importantes ou variações naturais (pontos extremos reais).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 154,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "O ponto central da curva normal corresponde ao valor da média, da mediana e da moda.",
+        "gabarito": "C",
+        "justificativa": "Propriedade da curva de Gauss.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 155,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "Em um conjunto de dados, pode haver mais de uma moda.",
+        "gabarito": "C",
+        "justificativa": "Distribuições bimodais, trimodais, etc.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 156,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "A amostragem sistemática exige que todos os elementos da população sejam numerados para a escolha aleatória do primeiro elemento.",
+        "gabarito": "C",
+        "justificativa": "Definição do processo sistemático (escolha a cada k elementos).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
