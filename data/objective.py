@@ -3398,5 +3398,2336 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Vedada a associação de caráter paramilitar (Art. 5º, XVII).",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 345,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da moralidade administrativa impede que a Administração Pública realize atos que, embora formalmente legais, firam a ética, a lealdade e a boa-fé.",
+        "gabarito": "C",
+        "justificativa": "Conceito de moralidade administrativa.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 346,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "A convalidação do ato administrativo é ato discricionário por meio do qual a Administração saneia ato com vício sanável, com efeitos ex tunc.",
+        "gabarito": "C",
+        "justificativa": "Art. 55 da Lei 9.784/99.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 347,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "Na modalidade Convite, o número mínimo de licitantes é três.",
+        "gabarito": "C",
+        "justificativa": "Lei 8.666/93.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 348,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "É inexigível a licitação quando houver inviabilidade de competição.",
+        "gabarito": "C",
+        "justificativa": "Art. 25 da Lei 8.666/93.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 349,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "O regime de execução por preço global é aquele em que se contrata a execução da obra ou do serviço por preço certo e total.",
+        "gabarito": "C",
+        "justificativa": "Lei 8.666/93.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 350,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "O Diálogo Competitivo é uma modalidade de licitação introduzida pela Lei 14.133/2021.",
+        "gabarito": "C",
+        "justificativa": "Art. 32 da Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 351,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "Na nova lei de licitações, a modalidade Tomada de Preços foi extinta.",
+        "gabarito": "C",
+        "justificativa": "Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 352,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "O critério de julgamento por 'maior retorno econômico' é exclusivo da modalidade leilão.",
+        "gabarito": "E",
+        "justificativa": "O critério de maior retorno econômico é usado em contratos de eficiência.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 353,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "A fase de habilitação na Lei 14.133/2021, via de regra, ocorre após a fase de julgamento.",
+        "gabarito": "C",
+        "justificativa": "Inversão de fases como regra.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 354,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "O credenciamento é um procedimento auxiliar previsto na Lei 14.133/2021.",
+        "gabarito": "C",
+        "justificativa": "Art. 79 da Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 355,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "O prazo de duração dos contratos de serviços contínuos pode ser de até 5 anos, prorrogáveis por até 10 anos.",
+        "gabarito": "C",
+        "justificativa": "Arts. 106 e 107 da Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 356,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "A inexigibilidade de licitação para serviços técnicos especializados de natureza predominantemente intelectual exige a notória especialização do contratado.",
+        "gabarito": "C",
+        "justificativa": "Art. 74, III da Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 357,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos (Lei 14.133/2021)",
+        "enunciado": "O portal nacional de contratações públicas (PNCP) é o sítio eletrônico oficial destinado à divulgação centralizada dos atos das licitações e contratos.",
+        "gabarito": "C",
+        "justificativa": "Art. 174 da Lei 14.133/21.",
+        "fonte": "Inédita (Lei 14.133/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 358,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "Dado pessoal sensível é aquele sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, II da LGPD.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 359,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O operador é a pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais.",
+        "gabarito": "E",
+        "justificativa": "Este é o conceito de controlador. O operador realiza o tratamento em nome do controlador.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 360,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "A ANPD (Autoridade Nacional de Proteção de Dados) possui natureza jurídica de autarquia sob regime especial.",
+        "gabarito": "C",
+        "justificativa": "Lei 14.460/2022.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 361,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O encarregado pelo tratamento de dados pessoais (DPO) deve ser sempre uma pessoa natural.",
+        "gabarito": "E",
+        "justificativa": "Pode ser pessoa natural ou jurídica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 362,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O princípio da necessidade na LGPD limita o tratamento ao mínimo necessário para a realização de suas finalidades.",
+        "gabarito": "C",
+        "justificativa": "Art. 6º, III da LGPD.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 363,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O titular dos dados tem o direito de obter do controlador, a qualquer momento, a anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos.",
+        "gabarito": "C",
+        "justificativa": "Art. 18, IV da LGPD.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 364,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O tratamento de dados pessoais de crianças deve ser realizado com o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal.",
+        "gabarito": "C",
+        "justificativa": "Art. 14, §1º da LGPD.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 365,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. LGPD (Lei nº 13.709/2018)",
+        "enunciado": "O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) deve conter a descrição dos tipos de dados coletados e a metodologia utilizada para a coleta.",
+        "gabarito": "C",
+        "justificativa": "Art. 38 da LGPD.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 366,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder hierárquico fundamenta a relação de subordinação entre órgãos e agentes públicos, permitindo o comando, a fiscalização e a revisão de atos.",
+        "gabarito": "C",
+        "justificativa": "Conceito de hierarquia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 367,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O desvio de poder ocorre quando o agente atua fora dos limites de sua competência legal.",
+        "gabarito": "E",
+        "justificativa": "O desvio de poder ocorre quando o agente atua dentro da competência, mas com finalidade diversa do interesse público. O outro erro é o excesso de poder.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 368,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder regulamentar é a prerrogativa do Chefe do Executivo de editar decretos e regulamentos para o fiel cumprimento das leis.",
+        "gabarito": "C",
+        "justificativa": "Art. 84, IV da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 369,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "O exercício financeiro coincide com o ano civil.",
+        "gabarito": "C",
+        "justificativa": "Art. 34 da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 370,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "Consideram-se Restos a Pagar as despesas empenhadas mas não pagas até o dia 31 de dezembro.",
+        "gabarito": "C",
+        "justificativa": "Art. 36 da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 371,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "O superávit financeiro apurado em balanço patrimonial do exercício anterior pode ser utilizado como fonte para abertura de créditos suplementares.",
+        "gabarito": "C",
+        "justificativa": "Art. 43, §1º, I da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 372,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "A LOA (Lei Orçamentária Anual) compreende o orçamento fiscal, o orçamento de investimento das empresas e o orçamento da seguridade social.",
+        "gabarito": "C",
+        "justificativa": "Art. 165, §5º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 373,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "O PPA (Plano Plurianual) estabelece as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes.",
+        "gabarito": "C",
+        "justificativa": "Art. 165, §1º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 374,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "A LDO (Lei de Diretrizes Orçamentárias) deve dispor sobre as alterações na legislação tributária e estabelecer a política de aplicação das agências financeiras oficiais de fomento.",
+        "gabarito": "C",
+        "justificativa": "Art. 165, §2º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 375,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "O princípio da universalidade preceitua que o orçamento deve conter todas as receitas e todas as despesas do Estado.",
+        "gabarito": "C",
+        "justificativa": "Princípio Clássico.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 376,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "As receitas correntes compreendem as receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de serviços e outras receitas de capital.",
+        "gabarito": "E",
+        "justificativa": "Receitas de capital são uma categoria distinta de receitas correntes.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 377,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "A liquidação da despesa consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito.",
+        "gabarito": "C",
+        "justificativa": "Art. 63 da Lei 4.320/64.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 378,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "O Suprimento de Fundos é um adiantamento de numerário a servidor para despesas que não possam subordinar-se ao processo normal de aplicação.",
+        "gabarito": "C",
+        "justificativa": "Art. 68 da Lei 4.320/64.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 379,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "A reserva de contingência é uma dotação orçamentária destinada ao atendimento de passivos contingentes e outros riscos e eventos fiscais imprevistos.",
+        "gabarito": "C",
+        "justificativa": "LRF.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 380,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. Administração Orçamentária e Financeira",
+        "enunciado": "As transferências voluntárias são entregas de recursos correntes ou de capital a outro ente da Federação, a título de cooperação, auxílio ou assistência financeira.",
+        "gabarito": "C",
+        "justificativa": "Art. 25 da LRF.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 381,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A responsabilidade civil do Estado no Brasil adota a teoria da culpa administrativa para condutas omissivas.",
+        "gabarito": "C",
+        "justificativa": "Responsabilidade subjetiva por omissão (faute du service).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 382,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "O direito de regresso contra o agente público depende da comprovação de dolo ou culpa do mesmo.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, §6º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 383,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "O Estado responde civilmente por atos de multidões em fúria, independentemente de falha no serviço de segurança pública.",
+        "gabarito": "E",
+        "justificativa": "Em casos de danos por multidões, a responsabilidade é subjetiva (falha no serviço).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 384,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A teoria do risco integral é aplicada no Brasil em casos de danos nucleares.",
+        "gabarito": "C",
+        "justificativa": "Exceção à teoria do risco administrativo.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 385,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "A sanção de suspensão dos direitos políticos, na Lei 8.429/92, pode chegar a 14 anos nos atos que importam enriquecimento ilícito.",
+        "gabarito": "C",
+        "justificativa": "Art. 12, I da Lei 8.429/92 (alterada pela Lei 14.230/21).",
+        "fonte": "Inédita (Lei 14.230/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 386,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "A proibição de contratar com o Poder Público em casos de atos que atentam contra os princípios da administração pública é de até 4 anos.",
+        "gabarito": "C",
+        "justificativa": "Art. 12, III da Lei 8.429/92.",
+        "fonte": "Inédita (Lei 14.230/21)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 387,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "A intervenção federal para manter a integridade nacional é de iniciativa espontânea do Presidente da República.",
+        "gabarito": "C",
+        "justificativa": "Art. 34, I da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 388,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "O Congresso Nacional deve apreciar o decreto de intervenção no prazo de 24 horas.",
+        "gabarito": "C",
+        "justificativa": "Art. 36, §1º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 389,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "Durante o estado de defesa ou estado de sítio, a Constituição não pode ser emendada.",
+        "gabarito": "C",
+        "justificativa": "Limitação circunstancial (Art. 60, §1º).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 390,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "A intervenção federal pode ser decretada para pôr termo a grave comprometimento da ordem pública.",
+        "gabarito": "C",
+        "justificativa": "Art. 34, III da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 391,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete privativamente ao Congresso Nacional autorizar o Presidente da República a declarar guerra e a celebrar a paz.",
+        "gabarito": "C",
+        "justificativa": "Art. 49, II da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 392,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete exclusivamente à Câmara dos Deputados autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.",
+        "gabarito": "C",
+        "justificativa": "Art. 51, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 393,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete privativamente ao Senado Federal processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade.",
+        "gabarito": "C",
+        "justificativa": "Art. 52, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 394,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete ao Senado Federal aprovar previamente, por voto secreto, após arguição pública, a escolha de magistrados, nos casos estabelecidos na Constituição.",
+        "gabarito": "C",
+        "justificativa": "Art. 52, III, 'a' da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 395,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Ao Senado Federal compete estabelecer limites globais e condições para o montante da dívida mobiliária dos Estados, do Distrito Federal e dos Municípios.",
+        "gabarito": "C",
+        "justificativa": "Art. 52, IX da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 396,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "Ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, VIII da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 397,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "É livre a locomoção no território nacional em tempo de paz.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XV da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 398,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, contanto que não frustrem outra reunião anteriormente convocada.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XVI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 399,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "A pequena propriedade rural, assim definida em lei, desde que trabalhada pela família, não será objeto de penhora para pagamento de débitos decorrentes de sua atividade produtiva.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XXVI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 400,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "Não haverá juízo ou tribunal de exceção.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XXXVII da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 401,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "É assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, VII da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 402,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "O Senado Federal compõe-se de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio majoritário.",
+        "gabarito": "C",
+        "justificativa": "Art. 46 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 403,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "Cada Estado e o Distrito Federal elegerão três Senadores, com mandato de oito anos.",
+        "gabarito": "C",
+        "justificativa": "Art. 46, §1º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 404,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "A representação de cada Estado e do Distrito Federal será renovada de quatro em quatro anos, alternadamente, por um e dois terços.",
+        "gabarito": "C",
+        "justificativa": "Art. 46, §2º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 405,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos.",
+        "gabarito": "C",
+        "justificativa": "Art. 53, caput da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 406,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+        "gabarito": "C",
+        "justificativa": "Art. 67 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 407,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "As medidas provisórias perderão eficácia, desde a edição, se não forem convertidas em lei no prazo de sessenta dias, prorrogável uma vez por igual período.",
+        "gabarito": "C",
+        "justificativa": "Art. 62, §3º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 408,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "Leis delegadas serão elaboradas pelo Presidente da República, que deverá solicitar a delegação ao Congresso Nacional.",
+        "gabarito": "C",
+        "justificativa": "Art. 68 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 409,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "O veto será apreciado em sessão conjunta, dentro de trinta dias a contar de seu recebimento.",
+        "gabarito": "C",
+        "justificativa": "Art. 66, §4º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 410,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "A Câmara dos Deputados reunir-se-á anualmente em Brasília, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro.",
+        "gabarito": "C",
+        "justificativa": "Art. 57 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 411,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "No início da primeira e da terceira sessões legislativas de cada legislatura, haverá a eleição dos membros da Mesa para mandato de 2 anos, vedada a recondução para o mesmo cargo na eleição imediata.",
+        "gabarito": "C",
+        "justificativa": "Regimento Interno.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 412,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "As atribuições da Polícia Legislativa incluem a segurança do Presidente da Câmara em qualquer local do território nacional.",
+        "gabarito": "C",
+        "justificativa": "Resolução 18/03.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 413,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "Ao Departamento de Polícia Legislativa compete a revista de pessoas e de veículos para ingresso nas dependências da Câmara.",
+        "gabarito": "C",
+        "justificativa": "Resolução 18/03.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 414,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "Os servidores da Polícia Legislativa no exercício de suas funções têm o dever de identificar-se mediante a exibição de distintivo ou carteira funcional.",
+        "gabarito": "C",
+        "justificativa": "Regulamentação funcional.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 415,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "Compete ao Secretário de Segurança da Câmara a coordenação geral das atividades de policiamento interno.",
+        "gabarito": "C",
+        "justificativa": "Estrutura administrativa da Câmara.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 416,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "A Polícia da Câmara será exercida por servidores de seu quadro de pessoal, com as atribuições previstas em resolução.",
+        "gabarito": "C",
+        "justificativa": "Base legal da Polícia Legislativa.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 417,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "O policiamento do edifício e das dependências externas da Câmara incumbe privativamente à sua Polícia Legislativa.",
+        "gabarito": "C",
+        "justificativa": "Autonomia dos poderes.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 418,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "A prisão em flagrante nas dependências da Câmara de qualquer pessoa será efetuada pela Polícia Legislativa.",
+        "gabarito": "C",
+        "justificativa": "Poder de polícia legislativo.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 419,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "O inquérito policial relativo a crimes ocorridos nas dependências da Câmara será presidido por autoridade policial legislativa.",
+        "gabarito": "C",
+        "justificativa": "Súmula 397 do STF.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 420,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "Havendo crime de responsabilidade cometido nas dependências da Câmara, a Polícia Legislativa deve instaurar o respectivo inquérito.",
+        "gabarito": "E",
+        "justificativa": "Crime de responsabilidade segue rito especial e julgamento político, não inquérito policial comum.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 421,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "A Polícia Legislativa pode requisitar o auxílio de outras forças policiais caso necessário, mediante autorização da Mesa.",
+        "gabarito": "C",
+        "justificativa": "Resolução 18/03.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 422,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "A revista de pessoas nas galerias da Câmara é competência da Polícia Legislativa.",
+        "gabarito": "C",
+        "justificativa": "Controle de acesso e segurança.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 423,
+        "count": 1,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "O Diretor do Departamento de Polícia Legislativa deve ser servidor de carreira da Câmara.",
+        "gabarito": "C",
+        "justificativa": "Resolução 18/03.",
+        "fonte": "Inédita (Foco Edital)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 424,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003 (Regimento Interno)",
+        "enunciado": "A Polícia Legislativa pode realizar interceptações telefônicas sem autorização judicial se o crime envolver segurança nacional dentro da Câmara.",
+        "gabarito": "E",
+        "justificativa": "Interceptação telefônica exige sempre autorização judicial.",
+        "fonte": "Inédita (Limites Constitucionais)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 425,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A função de Inteligência é voltada para a produção de conhecimentos para assessorar o processo decisório.",
+        "gabarito": "C",
+        "justificativa": "Doutrina básica.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 426,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A Contra-inteligência tem como objetivo prevenir, detectar, obstruir e neutralizar a inteligência adversa.",
+        "gabarito": "C",
+        "justificativa": "Doutrina básica.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 427,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "O ciclo de inteligência compreende as fases de planejamento, coleta, processamento, análise e disseminação.",
+        "gabarito": "C",
+        "justificativa": "Doutrina básica.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 428,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A PNI estabelece as diretrizes para a atuação do Sistema Brasileiro de Inteligência (SISBIN).",
+        "gabarito": "C",
+        "justificativa": "Decreto 8.793/16.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 429,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A salvaguarda de assuntos sigilosos é um dos objetivos da Política Nacional de Inteligência.",
+        "gabarito": "C",
+        "justificativa": "Decreto 8.793/16.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 430,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A PNI deve ser revista a cada 4 anos, em consonância com o Plano Plurianual.",
+        "gabarito": "C",
+        "justificativa": "Decreto 8.793/16.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 431,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "A infiltração policial em organizações criminosas exige autorização judicial e deve ser realizada por agentes policiais.",
+        "gabarito": "C",
+        "justificativa": "Lei 12.850/13.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 432,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "A vigilância é uma técnica operacional que consiste na observação discreta e contínua de um alvo.",
+        "gabarito": "C",
+        "justificativa": "Técnica operacional.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 433,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "O recrutamento de fontes é o processo de identificar, selecionar e convencer pessoas a colaborar com o serviço de inteligência.",
+        "gabarito": "C",
+        "justificativa": "Técnica operacional.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 434,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "A criminologia moderna foca no delito, no delinquente, na vítima e no controle social.",
+        "gabarito": "C",
+        "justificativa": "Objetos da criminologia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 435,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "O controle social formal é exercido por instituições como a polícia, o judiciário e o sistema penitenciário.",
+        "gabarito": "C",
+        "justificativa": "Controle social.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 436,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "O conceito de controle social informal refere-se à pressão exercida pela família, escola e religião sobre o indivíduo.",
+        "gabarito": "C",
+        "justificativa": "Controle social.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 437,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "A vítima, na criminologia clássica, era o ator principal do drama criminal.",
+        "gabarito": "E",
+        "justificativa": "Na criminologia clássica a vítima era esquecida.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 438,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção primária atua sobre as causas do crime, como educação e desigualdade social.",
+        "gabarito": "C",
+        "justificativa": "Prevenção criminal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 439,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção secundária foca em grupos com maior risco de delinquência.",
+        "gabarito": "C",
+        "justificativa": "Prevenção criminal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 440,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção terciária é voltada para a reabilitação do egresso do sistema prisional.",
+        "gabarito": "C",
+        "justificativa": "Prevenção criminal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 441,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A Escola Clássica de Criminologia defendia que o crime era fruto do livre-arbítrio do indivíduo.",
+        "gabarito": "C",
+        "justificativa": "Teoria clássica.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 442,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "A teoria da rotulação (Labelling Approach) sustenta que o crime é uma etiqueta atribuída pela sociedade e pelo sistema penal.",
+        "gabarito": "C",
+        "justificativa": "Teoria da rotulação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 443,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "Edwin Lemert distingue entre desviância primária (o ato em si) e desviância secundária (a resposta social ao rótulo).",
+        "gabarito": "C",
+        "justificativa": "Teoria da rotulação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 444,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "O Labelling Approach é uma teoria do consenso, pois foca na harmonia social.",
+        "gabarito": "E",
+        "justificativa": "É uma teoria do conflito.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 445,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "Para a teoria da rotulação, as instituições de controle social podem gerar mais crime ao estigmatizar os indivíduos.",
+        "gabarito": "C",
+        "justificativa": "Teoria da rotulação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 446,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "A profecia autorrealizável (Self-fulfilling prophecy) é um conceito chave no Labelling Approach.",
+        "gabarito": "C",
+        "justificativa": "Teoria da rotulação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 447,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "O Labelling Approach ignora as causas biopsicossociais do crime, focando na reação do sistema.",
+        "gabarito": "C",
+        "justificativa": "Crítica central da teoria.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 448,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "Howard Becker, autor de 'Outsiders', é um dos principais expoentes desta teoria.",
+        "gabarito": "C",
+        "justificativa": "Autor clássico.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 449,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "A teoria da rotulação sugere políticas de descriminalização e desinstitucionalização.",
+        "gabarito": "C",
+        "justificativa": "Consequências políticas.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 450,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade: Labelling Approach",
+        "enunciado": "A reação social é o elemento constitutivo da criminalidade para os teóricos da rotulação.",
+        "gabarito": "C",
+        "justificativa": "Conceito fundamental.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 451,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização primária refere-se ao dano causado diretamente pelo ato criminoso.",
+        "gabarito": "C",
+        "justificativa": "Vitimologia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 452,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização secundária (sobrevitimização) ocorre no contato da vítima com as instâncias do sistema de justiça.",
+        "gabarito": "C",
+        "justificativa": "Vitimologia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 453,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "A Criminalística é a parte da ciência policial que estuda e analisa os indícios e vestígios deixados nos locais do crime.",
+        "gabarito": "C",
+        "justificativa": "Conceito clássico.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 454,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "O postulado de Locard afirma que 'todo contato deixa um rastro'.",
+        "gabarito": "C",
+        "justificativa": "Princípio da transferência.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 455,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "A antropometria, desenvolvida por Bertillon, foi o primeiro método científico de identificação de criminosos.",
+        "gabarito": "C",
+        "justificativa": "Histórico da Criminalística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 456,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígio é todo objeto ou material bruto encontrado no local do crime que pode ter relação com o fato.",
+        "gabarito": "C",
+        "justificativa": "Conceito de vestígio.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 457,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Indício é o vestígio que, após analisado e interpretado, demonstra relação com o crime investigado.",
+        "gabarito": "C",
+        "justificativa": "Conceito de indício.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 458,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Evidência é o indício que possui valor probatório direto no processo.",
+        "gabarito": "C",
+        "justificativa": "Conceito de evidência.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 459,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígios biológicos incluem sangue, sêmen, saliva e fios de cabelo com bulbo capilar.",
+        "gabarito": "C",
+        "justificativa": "Tipos de vestígios.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 460,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígios latentes são aqueles que não podem ser vistos a olho nu, exigindo reveladores químicos ou luzes especiais.",
+        "gabarito": "C",
+        "justificativa": "Tipos de vestígios.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 461,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "A balística identificadora estuda as marcas deixadas pelo cano da arma no projétil para identificar a arma de fogo utilizada.",
+        "gabarito": "C",
+        "justificativa": "Balística forense.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 462,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Manchas de sangue em forma de gotas geralmente indicam que o agressor estava parado ou se movendo lentamente.",
+        "gabarito": "C",
+        "justificativa": "Hematologia forense.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 463,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "As impressões digitais são imutáveis e únicas para cada indivíduo, fundamentando a papiloscopia.",
+        "gabarito": "C",
+        "justificativa": "Papiloscopia.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 464,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígios perecíveis são aqueles que podem ser alterados ou destruídos pela passagem do tempo ou condições ambientais.",
+        "gabarito": "C",
+        "justificativa": "Preservação de vestígios.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 465,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "O isolamento consiste no ato de evitar que se altere o estado das coisas, devendo ser a primeira etapa da cadeia de custódia.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, I do CPP.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 466,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "O descarte do vestígio deve ser documentado e realizado seguindo normas ambientais e sanitárias.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, X do CPP.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 467,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Local idôneo é aquele que foi preservado conforme determinam as normas legais até a chegada dos peritos.",
+        "gabarito": "C",
+        "justificativa": "Art. 6º do CPP.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 468,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Local imediato é a área onde ocorreu o fato principal e onde se encontra a maior quantidade de vestígios.",
+        "gabarito": "C",
+        "justificativa": "Classificação de local de crime.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 469,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Local mediato é a área adjacente ao local imediato, por onde o autor pode ter passado antes ou depois do crime.",
+        "gabarito": "C",
+        "justificativa": "Classificação de local de crime.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 470,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "O levantamento pericial deve ser minucioso e registrar a posição exata de cada vestígio encontrado.",
+        "gabarito": "C",
+        "justificativa": "Procedimento pericial.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 471,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "A contaminação do local do crime pode invalidar provas técnicas e prejudicar a investigação.",
+        "gabarito": "C",
+        "justificativa": "Importância da preservação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 472,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Locais relacionados são aqueles onde o autor ocultou o corpo da vítima ou os instrumentos do crime, distintos do local principal.",
+        "gabarito": "C",
+        "justificativa": "Classificação de local de crime.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 473,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "O método de busca em espiral é indicado para locais abertos e de grande extensão.",
+        "gabarito": "E",
+        "justificativa": "O método de busca em zonas ou quadrantes é mais indicado para grandes áreas abertas. Espiral é para áreas menores ou ambientes fechados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 474,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "A fotografia pericial deve ser feita antes de qualquer alteração física no local do crime.",
+        "gabarito": "C",
+        "justificativa": "Perícia criminal.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 475,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "O croqui do local do crime é um desenho esquemático que complementa o relatório fotográfico.",
+        "gabarito": "C",
+        "justificativa": "Perícia criminal.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 476,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "A preservação do local do crime é responsabilidade exclusiva dos peritos criminais.",
+        "gabarito": "E",
+        "justificativa": "A primeira autoridade policial que chegar ao local tem o dever de preservá-lo.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 477,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "A Convenção Americana sobre Direitos Humanos, também conhecida como Pacto de San José da Costa Rica, prevê o direito à vida desde a concepção.",
+        "gabarito": "C",
+        "justificativa": "Art. 4.1 da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 478,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A Lei 9.807/1999 prevê o sigilo da residência e dos dados pessoais da testemunha protegida.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 479,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A inclusão no programa de proteção a testemunhas exige a anuência do interessado ou de seu representante legal.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 480,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "O programa de proteção pode incluir auxílio financeiro mensal para atender às despesas básicas de subsistência.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 481,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A exclusão da testemunha do programa de proteção pode ocorrer a qualquer tempo por solicitação do interessado.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 482,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A segurança da testemunha protegida pode ser realizada por policiais civis ou militares especificamente designados.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 483,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "O prazo máximo de permanência no programa de proteção a testemunhas é de 2 anos, improrrogáveis.",
+        "gabarito": "E",
+        "justificativa": "O prazo é de 2 anos, mas pode ser prorrogado se persistirem os motivos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 484,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "Os juízes da Corte Interamericana são eleitos em sua capacidade pessoal e não como representantes dos Estados.",
+        "gabarito": "C",
+        "justificativa": "Art. 52 da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 485,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "A Corte possui funções consultiva e contenciosa.",
+        "gabarito": "C",
+        "justificativa": "Estatuto da Corte IDH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 486,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "Indivíduos podem peticionar diretamente à Corte Interamericana sem passar pela Comissão.",
+        "gabarito": "E",
+        "justificativa": "Apenas Estados Partes e a Comissão podem submeter casos à Corte.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 487,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "As sentenças da Corte são definitivas e inapeláveis, mas admitem pedido de interpretação.",
+        "gabarito": "C",
+        "justificativa": "Art. 67 da CADH.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 488,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "A sede da Corte Interamericana de Direitos Humanos fica em San José, Costa Rica.",
+        "gabarito": "C",
+        "justificativa": "Geografia dos Direitos Humanos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 489,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "A Corte pode ordenar medidas provisórias em casos de extrema gravidade e urgência.",
+        "gabarito": "C",
+        "justificativa": "Art. 63.2 da CADH.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 490,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "O mandato dos juízes da Corte é de 6 anos, admitida uma única reeleição.",
+        "gabarito": "C",
+        "justificativa": "Art. 54.1 da CADH.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 491,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "A Comissão Interamericana atua como órgão acusatório perante a Corte.",
+        "gabarito": "C",
+        "justificativa": "Sistema Interamericano.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 492,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O Decreto nº 12.341/2024 proíbe a exibição pública de presos algemados pela imprensa, salvo em casos de interesse público justificado.",
+        "gabarito": "C",
+        "justificativa": "Proteção da imagem e dignidade.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 493,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "Agentes de segurança devem gravar suas operações com câmeras corporais conforme as novas diretrizes de 2024.",
+        "gabarito": "C",
+        "justificativa": "Transparência e controle do uso da força.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 494,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O emprego de armas menos letais é prioridade em relação ao uso de armas de fogo em manifestações públicas.",
+        "gabarito": "C",
+        "justificativa": "Uso progressivo da força.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 495,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "A contenção física de mulheres grávidas com o uso de algemas é vedada pelo novo regulamento de 2024.",
+        "gabarito": "C",
+        "justificativa": "Proteção especial.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 496,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O relatório de uso da força deve ser preenchido pelo agente sempre que houver disparo de arma de fogo, mesmo que não atinja ninguém.",
+        "gabarito": "C",
+        "justificativa": "Controle interno.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 497,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "A perícia médica é obrigatória para qualquer detido que apresente lesões aparentes no momento da prisão.",
+        "gabarito": "C",
+        "justificativa": "Garantia de integridade física.",
+        "fonte": "Inédita (Legislação Atualizada)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 498,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "A Lei 13.060/2014 prioriza o uso de instrumentos de menor potencial ofensivo pelos agentes de segurança pública.",
+        "gabarito": "C",
+        "justificativa": "Lei 13.060/14.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 499,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "O uso de arma de fogo é proibido contra pessoa em fuga que esteja desarmada, salvo se apresentar risco iminente contra terceiros.",
+        "gabarito": "C",
+        "justificativa": "Lei 13.060/14.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 500,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "A legítima defesa do agente de segurança é presumida em qualquer caso de confronto direto com suspeitos armados.",
+        "gabarito": "E",
+        "justificativa": "A legítima defesa deve ser provada e seguir os requisitos legais (moderação, meios necessários).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 501,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "É vedado o uso de arma de fogo contra veículo que desrespeite bloqueio policial em via pública, quando não houver risco imediato de morte ou lesão aos agentes.",
+        "gabarito": "C",
+        "justificativa": "Lei 13.060/14.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 502,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "Agentes que utilizarem a força de forma desproporcional estarão sujeitos a sanções administrativas, civis e penais.",
+        "gabarito": "C",
+        "justificativa": "Responsabilidade funcional.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 503,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "O treinamento dos agentes de segurança deve priorizar técnicas de negociação e resolução pacífica de conflitos.",
+        "gabarito": "C",
+        "justificativa": "Diretrizes da Lei 13.060/14.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 504,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "O kernel é a parte central do sistema operacional que gerencia os recursos do hardware e permite a comunicação com o software.",
+        "gabarito": "C",
+        "justificativa": "Conceito de SO.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 505,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "O Spyware é um programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros.",
+        "gabarito": "C",
+        "justificativa": "Conceito de malware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 506,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Adware é um tipo de malware que exibe propagandas indesejadas e pode coletar dados de navegação do usuário.",
+        "gabarito": "C",
+        "justificativa": "Conceito de malware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 507,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Um Rootkit visa garantir o acesso privilegiado do invasor ao sistema, escondendo sua presença dos programas de segurança.",
+        "gabarito": "C",
+        "justificativa": "Conceito de malware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 508,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "O cavalo de troia (Trojan) é um malware que se replica automaticamente enviando cópias de si mesmo para outros computadores da rede.",
+        "gabarito": "E",
+        "justificativa": "Este é o conceito de Worm. O Trojan precisa ser executado pelo usuário enganado.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 509,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "SaaS (Software as a Service) permite ao usuário utilizar aplicativos rodando na infraestrutura da nuvem via internet.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Cloud.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 510,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "IaaS (Infrastructure as a Service) fornece recursos computacionais como servidores, armazenamento e rede como um serviço.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Cloud.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 511,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "PaaS (Platform as a Service) oferece um ambiente completo para desenvolvimento, teste e implantação de aplicativos na nuvem.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Cloud.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 512,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "Na nuvem híbrida, os dados e aplicativos são compartilhados entre nuvens públicas e privadas.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Cloud.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 513,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "A virtualização permite que vários sistemas operacionais rodem simultaneamente em um único hardware físico através de um hypervisor.",
+        "gabarito": "C",
+        "justificativa": "Conceito de virtualização.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 514,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "A biblioteca Pandas é amplamente utilizada em Python para manipulação e análise de dados estruturados.",
+        "gabarito": "C",
+        "justificativa": "Python para dados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 515,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "NumPy é a biblioteca fundamental para computação científica em Python, focada no processamento de arrays e matrizes.",
+        "gabarito": "C",
+        "justificativa": "Python para dados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 516,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "Matplotlib e Seaborn são bibliotecas do ecossistema Python voltadas para a visualização de dados e criação de gráficos.",
+        "gabarito": "C",
+        "justificativa": "Python para dados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 517,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "Dataframe é a estrutura de dados bidimensional do Pandas, semelhante a uma planilha ou tabela de banco de dados SQL.",
+        "gabarito": "C",
+        "justificativa": "Python para dados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 518,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Modelos de linguagem extensos (LLMs) são treinados em vastos conjuntos de dados para gerar texto coerente e realizar tarefas de processamento de linguagem natural.",
+        "gabarito": "C",
+        "justificativa": "Conceito de IA.",
+        "fonte": "Inédita (Foco Atualidade)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 519,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "IA Generativa refere-se a modelos que podem criar novos conteúdos, como texto, imagens e áudio, baseados nos dados de treinamento.",
+        "gabarito": "C",
+        "justificativa": "Conceito de IA.",
+        "fonte": "Inédita (Foco Atualidade)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 520,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Alucinação em IA Generativa ocorre quando o modelo gera informações factualmente incorretas mas que soam plausíveis.",
+        "gabarito": "C",
+        "justificativa": "Conceito de IA.",
+        "fonte": "Inédita (Foco Atualidade)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 521,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Prompt Engineering é a técnica de projetar entradas eficazes para guiar modelos generativos na produção do resultado desejado.",
+        "gabarito": "C",
+        "justificativa": "Conceito de IA.",
+        "fonte": "Inédita (Foco Atualidade)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 522,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Redes Adversárias Generativas (GANs) consistem em dois modelos competindo entre si: um gerador e um discriminador.",
+        "gabarito": "C",
+        "justificativa": "Conceito de IA.",
+        "fonte": "Inédita (Foco Atualidade)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 523,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Phishing é um ataque baseado em engenharia social que visa obter dados sensíveis fingindo ser uma entidade confiável via meios eletrônicos.",
+        "gabarito": "C",
+        "justificativa": "Conceito de segurança.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 524,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Firewall é um dispositivo ou software que monitora e controla o tráfego de rede baseado em regras de segurança pré-determinadas.",
+        "gabarito": "C",
+        "justificativa": "Conceito de segurança.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 525,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Criptografia de chave pública (assimétrica) utiliza um par de chaves relacionadas: uma chave pública para criptografar e uma chave privada para descriptografar.",
+        "gabarito": "C",
+        "justificativa": "Conceito de segurança.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 526,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Velocidade, no contexto de Big Data, refere-se ao ritmo em que os dados são gerados e processados.",
+        "gabarito": "C",
+        "justificativa": "5 Vs do Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 527,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Veracidade em Big Data trata da confiabilidade e precisão dos dados coletados.",
+        "gabarito": "C",
+        "justificativa": "5 Vs do Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 528,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "O valor no Big Data é a capacidade de extrair insights úteis e acionáveis dos dados massivos.",
+        "gabarito": "C",
+        "justificativa": "5 Vs do Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 529,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Bancos de dados NoSQL são frequentemente usados em ambientes de Big Data por sua escalabilidade e flexibilidade com dados não estruturados.",
+        "gabarito": "C",
+        "justificativa": "Tecnologia de Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 530,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O protocolo HTTP (Hypertext Transfer Protocol) opera na camada de aplicação do modelo TCP/IP.",
+        "gabarito": "C",
+        "justificativa": "Redes.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 531,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "Uma rede LAN (Local Area Network) cobre uma pequena área geográfica, como uma residência, escritório ou prédio.",
+        "gabarito": "C",
+        "justificativa": "Redes.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 532,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "Se a proposição P é 'O céu é azul' e Q é '2+2=5', a conjunção 'P e Q' é falsa.",
+        "gabarito": "C",
+        "justificativa": "Lógica proposicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 533,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "A disjunção inclusiva 'P ou Q' é falsa somente se ambas as proposições forem falsas.",
+        "gabarito": "C",
+        "justificativa": "Lógica proposicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 534,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "A bicondicional 'P se e somente se Q' é verdadeira quando P e Q possuem o mesmo valor lógico.",
+        "gabarito": "C",
+        "justificativa": "Lógica proposicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 535,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "Uma tautologia é uma proposição que é sempre verdadeira, independentemente dos valores lógicos das proposições simples que a compõem.",
+        "gabarito": "C",
+        "justificativa": "Lógica proposicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 536,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "Uma contradição é uma proposição que é sempre falsa.",
+        "gabarito": "C",
+        "justificativa": "Lógica proposicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 537,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "A amostragem aleatória simples garante que todos os elementos da população tenham a mesma probabilidade de serem selecionados.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 538,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "O erro amostral diminui à medida que o tamanho da amostra aumenta.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 539,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "Amostragem por conglomerado é útil quando a população está naturalmente dividida em grupos e é caro ou difícil acessar todos os indivíduos.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 540,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se 'Todo A é B' e 'X não é B', então 'X não é A'.",
+        "gabarito": "C",
+        "justificativa": "Diagramas de Venn.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 541,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se 'Algum A é B' e 'Algum B é C', logo 'Algum A é C'.",
+        "gabarito": "E",
+        "justificativa": "Não há garantia de intersecção entre A e C.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 542,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "A afirmação 'Nenhum A é B' é equivalente a 'Todo A é não B'.",
+        "gabarito": "C",
+        "justificativa": "Diagramas de Venn.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 543,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "O conectivo 'Ou exclusivo' (v) é verdadeiro se P e Q tiverem valores lógicos opostos.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 544,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "A ordem de precedência dos conectivos lógicos começa pela negação (~).",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 545,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "Uma sentença exclamativa não pode ser considerada uma proposição lógica.",
+        "gabarito": "C",
+        "justificativa": "Conceito de proposição.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 546,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "Proposições compostas são formadas pela união de proposições simples por meio de conectivos.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 547,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "A negação da conjunção '~ (P ^ Q)' é equivalente a '(~P v ~Q)' pelas leis de De Morgan.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 548,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "A negação da disjunção '~ (P v Q)' é equivalente a '(~P ^ ~Q)'.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 549,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "Uma proposição simples não contém nenhum outro componente que seja ele mesmo uma proposição.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 550,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "O número de linhas de uma tabela-verdade para uma proposição com n proposições simples é 2^n.",
+        "gabarito": "C",
+        "justificativa": "Lógica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 551,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A proposição 'P -> Q' é equivalente a '~Q -> ~P'.",
+        "gabarito": "C",
+        "justificativa": "Contrapositiva.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 552,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A proposição 'P -> Q' é equivalente a '~P v Q'.",
+        "gabarito": "C",
+        "justificativa": "Equivalência da condicional.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 553,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A negação de 'Todo policial é herói' é 'Algum policial não é herói'.",
+        "gabarito": "C",
+        "justificativa": "Negação de quantitativo universal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 554,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A negação de 'Algum médico é rico' é 'Nenhum médico é rico'.",
+        "gabarito": "C",
+        "justificativa": "Negação de quantitativo existencial.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 555,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "O desvio padrão é a raiz quadrada positiva da variância.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 556,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "A variância é uma medida de dispersão que possui a mesma unidade de medida dos dados originais.",
+        "gabarito": "E",
+        "justificativa": "A variância possui a unidade ao quadrado. O desvio padrão é que possui a mesma unidade.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 557,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "O coeficiente de variação é uma medida de dispersão relativa, expressa geralmente em porcentagem.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 558,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "A amplitude total é a diferença entre o maior e o menor valor de um conjunto de dados.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 559,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "O escore Z indica quantos desvios padrão um valor está acima ou abaixo da média da população.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 560,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "Um escore Z igual a zero indica que o valor é exatamente igual à média da população.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 561,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "Escores Z negativos indicam valores acima da média.",
+        "gabarito": "E",
+        "justificativa": "Indicam valores abaixo da média.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 562,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "A padronização pelo escore Z permite comparar valores de diferentes distribuições que possuem escalas ou unidades distintas.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 563,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "A soma de todos os escores Z de uma população é sempre igual a 1.",
+        "gabarito": "E",
+        "justificativa": "A soma é igual a zero.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 564,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Outliers são observações que se afastam significativamente do padrão geral dos dados.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 565,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "O método do intervalo interquartil (IQR) é uma técnica comum para identificar potenciais outliers.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 566,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Um outlier deve ser sempre removido do conjunto de dados antes de qualquer análise estatística.",
+        "gabarito": "E",
+        "justificativa": "Deve ser analisado; pode ser um erro de medida ou uma descoberta importante.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 567,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Diagramas de caixa (Boxplots) são ferramentas gráficas excelentes para visualizar a presença de outliers.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 568,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "A presença de outliers não afeta o cálculo da média aritmética.",
+        "gabarito": "E",
+        "justificativa": "Afeta significativamente.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 569,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "Em uma distribuição normal, aproximadamente 68% dos dados estão a um desvio padrão da média.",
+        "gabarito": "C",
+        "justificativa": "Propriedade da curva normal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 570,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "A distribuição normal padrão possui média 1 e desvio padrão 1.",
+        "gabarito": "E",
+        "justificativa": "Possui média 0 e desvio padrão 1.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 571,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "A distribuição normal é também conhecida como distribuição gaussiana.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 572,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A moda é o valor que ocorre com maior frequência em um conjunto de dados.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 573,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A mediana é o valor que divide o conjunto de dados ordenados em duas partes iguais.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 574,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "Um conjunto de dados bimodal possui duas modas.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 575,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A média ponderada atribui diferentes pesos para cada valor do conjunto de dados.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 576,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A média harmônica é sempre maior que a média geométrica para um mesmo conjunto de dados positivos.",
+        "gabarito": "E",
+        "justificativa": "A média harmônica é sempre menor ou igual à geométrica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 577,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A média geométrica é útil para conjuntos de dados que apresentam taxas de crescimento ou variações percentuais.",
+        "gabarito": "C",
+        "justificativa": "Estatística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
