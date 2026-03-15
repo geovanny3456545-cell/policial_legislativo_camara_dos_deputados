@@ -3098,5 +3098,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Silogismo categórico válido.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 315,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "9. Medidas de Tendência Central",
+        "enunciado": "A média aritmética é influenciada por valores extremos, ao passo que a mediana é uma medida mais robusta para conjuntos de dados com presença de outliers.",
+        "gabarito": "C",
+        "justificativa": "Propriedades da média vs mediana.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 316,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "Pelo princípio da eficiência, a Administração deve buscar o melhor resultado com o menor custo possível, sem descuidar da qualidade do serviço prestado.",
+        "gabarito": "C",
+        "justificativa": "Conceito de eficiência administrativa.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 317,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XIV da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 318,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Um ataque de negação de serviço (DoS) visa tornar um recurso do sistema indisponível para seus usuários legítimos, inundando-o com tráfego excessivo.",
+        "gabarito": "C",
+        "justificativa": "Conceito de ataque DoS.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 319,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "Ninguém pode ser submetido a torturas, nem a penas ou tratos cruéis, desumanos ou degradantes.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
