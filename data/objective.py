@@ -2538,5 +2538,115 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Conceito moderno de IA.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 255,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "O escore Z indica quantos desvios-padrão um valor está acima ou abaixo da média em uma distribuição normal.",
+        "gabarito": "C",
+        "justificativa": "Definição de escore Z.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 256,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Outliers são pontos fora da curva que podem distorcer a média de uma distribuição, mas geralmente têm pouco impacto na mediana.",
+        "gabarito": "C",
+        "justificativa": "Propriedades da média vs mediana frente a valores extremos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 257,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Criptografia de ponta a ponta garante que apenas o remetente e o destinatário possam ler o conteúdo das mensagens, impedindo o acesso de terceiros, incluindo o provedor do serviço.",
+        "gabarito": "C",
+        "justificativa": "Conceito de criptografia end-to-end.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 258,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Os 5 Vs do Big Data são: Volume, Velocidade, Variedade, Veracidade e Valor.",
+        "gabarito": "C",
+        "justificativa": "Conceito fundamental de Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 259,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O protocolo HTTPS utiliza o SSL/TLS para criptografar a comunicação entre o navegador e o servidor web, operando geralmente na porta 443.",
+        "gabarito": "C",
+        "justificativa": "Conceito de HTTPS e portas.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 260,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "A revogação do ato administrativo é ato discricionário por meio do qual a Administração extingue um ato válido, por razões de oportunidade e conveniência.",
+        "gabarito": "C",
+        "justificativa": "Conceito de revogação.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 261,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "Pelo princípio da autotutela, a Administração Pública pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, ou revogá-los, por motivo de conveniência ou oportunidade.",
+        "gabarito": "C",
+        "justificativa": "Súmulas 346 e 473 do STF.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 262,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 263,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "Ninguém poderá ser eleito para as Mesas da Câmara e do Senado para o mesmo cargo, na eleição imediatamente subsequente, na mesma legislatura.",
+        "gabarito": "C",
+        "justificativa": "Art. 57, §4º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 264,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "A criminologia clínica busca entender a personalidade do criminoso e os fatores que o levaram à prática do delito, visando ao seu tratamento.",
+        "gabarito": "C",
+        "justificativa": "Conceito de criminologia clínica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 265,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "Na amostragem estratificada, a população é dividida em subgrupos (estratos) e uma amostra é selecionada de cada estrato.",
+        "gabarito": "C",
+        "justificativa": "Definição de amostragem estratificada.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
