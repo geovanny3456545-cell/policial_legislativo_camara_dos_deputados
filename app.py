@@ -4,7 +4,7 @@ import time
 from data.objective import OBJECTIVE_QUESTIONS
 from data.discursive import DISCURSIVE_CASES
 
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
@@ -225,7 +225,7 @@ if mode == "Arena Objetiva (C/E)":
                         st.success(f"✅ **Análise da IA**: Sua contestação sobre o tema **{q['topico']}** foi validada tecnicamente. No entanto, o gabarito oficial **{q['gabarito']}** é mantido. \n\n**Fundamentação**: De acordo com a doutrina dominante para este cargo, {q['justificativa'].lower()}")
 
 elif mode == "Laboratório Discursivo":
-    st.subheader("✍️ Casos Práticos e Peças Técnicas")
+    st.subheader("✍️ Laboratório Discursivo")
     
     # CSS para o badge de Grande Aposta
     st.markdown("""
@@ -237,29 +237,35 @@ elif mode == "Laboratório Discursivo":
             padding: 10px;
             margin-bottom: 15px;
         }
-        .aposta-badge {
-            background-color: #FFD700;
-            color: #000;
-            padding: 2px 8px;
-            border-radius: 5px;
+        .aposta-label {
+            color: #FFD700;
             font-weight: bold;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
         }
         </style>
     """, unsafe_allow_html=True)
 
+    # Lógica de Filtragem (Suporte a Tópicos)
     disc_qs = DISCURSIVE_CASES
     if selected_subject != "Todas":
-        disc_qs = [case for case in DISCURSIVE_CASES if case['disciplina'] == selected_subject]
+        disc_qs = [case for case in disc_qs if case['disciplina'] == selected_subject]
+        # Se um tópico estiver selecionado, tentamos filtrar (embora discursivas sejam mais amplas)
+        if selected_topic != "Todos":
+            # Filtro flexível: busca o nome do tópico no título ou temas de revisão da discursiva
+            disc_qs = [case for case in disc_qs if selected_topic in (case.get('topico', '') + " ".join(case.get('revisao_temas', [])))]
 
     # Ordenar: Grande Aposta primeiro
     disc_qs = sorted(disc_qs, key=lambda x: x.get('grande_aposta', False), reverse=True)
 
+    if not disc_qs:
+        st.info("Nenhum caso discursivo encontrado para o tópico selecionado. Tente filtrar apenas por Disciplina.")
+    
     for case in disc_qs:
-        badge = '<span class="aposta-badge">🔥 GRANDE APOSTA</span> ' if case.get('grande_aposta') else ""
-        class_name = "high-stakes-card" if case.get('grande_aposta') else ""
+        title_prefix = "🔥 [GRANDE APOSTA] " if case.get('grande_aposta') else ""
         
-        with st.expander(f"{badge}{case['titulo']} - {case['disciplina']}"):
+        with st.expander(f"{title_prefix}{case['titulo']} - {case['disciplina']}"):
             st.markdown(f"**Caso:** {case['caso']}")
             st.warning(f"**Enunciado:** {case['pergunta']}")
             
@@ -268,21 +274,20 @@ elif mode == "Laboratório Discursivo":
             if st.button("Enviar para Correção (Padrão Cebraspe)", key=f"btn_{case['id']}"):
                 st.markdown("### 📝 Avaliação Técnica")
                 
-                # Lógica Simples de "Simulação de IA" por comparação de termos chave
+                # Lógica de Correção
                 total_nota = 0
-                max_nota = sum([q['peso'] for q in case.get('quesitos', [])])
+                max_nota = sum([q.get('peso', 0) for q in case.get('quesitos', [])])
                 feedback_items = []
 
                 if 'quesitos' in case:
                     for q in case['quesitos']:
-                        # Busca termos chave simplificada para demonstração
-                        keywords = q['descricao'].lower().split()
+                        keywords = q.get('descricao', '').lower().split()
                         found = any(word in user_text.lower() for word in keywords if len(word) > 4)
                         
-                        nota_quesito = q['peso'] if found else 0
+                        nota_quesito = q.get('peso', 0) if found else 0
                         total_nota += nota_quesito
                         status = "✅" if found else "❌"
-                        feedback_items.append(f"{status} **{q['item']}**: {nota_quesito}/{q['peso']} pts")
+                        feedback_items.append(f"{status} **{q.get('item', '')}**: {nota_quesito}/{q.get('peso', 0)} pts")
 
                 col_a, col_b = st.columns(2)
                 with col_a:
@@ -292,6 +297,6 @@ elif mode == "Laboratório Discursivo":
 
                 st.markdown("---")
                 st.markdown("### 📋 Espelho de Correção Oficial")
-                for item in case['espelho']:
+                for item in case.get('espelho', []):
                     st.write(f"- {item}")
-                st.markdown(f"**Temas para Revisão:** {', '.join(case['revisao_temas'])}")
+                st.markdown(f"**Temas para Revisão:** {', '.join(case.get('revisao_temas', []))}")
