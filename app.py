@@ -69,8 +69,13 @@ with st.sidebar:
     
     st.divider()
     
-    subjects = list(set([q['disciplina'] for q in OBJECTIVE_QUESTIONS]))
+    subjects = list(sorted(list(set([q['disciplina'] for q in OBJECTIVE_QUESTIONS]))))
     selected_subject = st.selectbox("Filtrar Disciplina:", ["Todas"] + subjects)
+    
+    selected_topic = "Todos"
+    if selected_subject != "Todas":
+        topics = list(sorted(list(set([q['topico'] for q in OBJECTIVE_QUESTIONS if q['disciplina'] == selected_subject]))))
+        selected_topic = st.selectbox("Filtrar Tópico:", ["Todos"] + topics)
 
 # --- CABEÇALHO ---
 st.markdown(f"""
@@ -88,7 +93,9 @@ if mode == "Arena Objetiva (C/E)":
     # Filtragem
     filtered_qs = OBJECTIVE_QUESTIONS
     if selected_subject != "Todas":
-        filtered_qs = [q for q in OBJECTIVE_QUESTIONS if q['disciplina'] == selected_subject]
+        filtered_qs = [q for q in filtered_qs if q['disciplina'] == selected_subject]
+        if selected_topic != "Todos":
+            filtered_qs = [q for q in filtered_qs if q['topico'] == selected_topic]
     
     for q in filtered_qs:
         with st.container():
