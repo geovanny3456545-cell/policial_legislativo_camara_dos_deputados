@@ -2798,5 +2798,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Definição de amostragem por conglomerados.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 281,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "Cabe ao Congresso Nacional, com a sanção do Presidente da República, dispor sobre todas as matérias de competência da União, especialmente sobre sistema tributário, arrecadação e distribuição de rendas.",
+        "gabarito": "C",
+        "justificativa": "Art. 48, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 282,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "O mandado de segurança será concedido para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, LXIX da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 283,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "A Lei de Orçamento não conterá dispositivo estranho à previsão da receita e à fixação da despesa, ressalvada a autorização para abertura de créditos suplementares e contratação de operações de crédito, ainda que por antecipação de receita.",
+        "gabarito": "C",
+        "justificativa": "Princípio da Exclusividade (Art. 165, §8º da CF/88).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 284,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "8. Distribuição Normal",
+        "enunciado": "Em uma distribuição normal, aproximadamente 68% dos dados estão situados dentro de um desvio padrão em relação à média.",
+        "gabarito": "C",
+        "justificativa": "Regra empírica da distribuição normal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 285,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "O criminoso, na criminologia positivista, era visto como um ser atávico, biologicamente marcado para o crime.",
+        "gabarito": "C",
+        "justificativa": "Escola Positiva (Lombroso).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
