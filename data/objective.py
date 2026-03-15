@@ -368,5 +368,385 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Média > Mediana > Moda em distribuições assimétricas positivas.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 38,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A vigilância técnica, como contramedida de inteligência, envolve o monitoramento de sinais eletromagnéticos e acústicos para detectar a presença de dispositivos de escuta não autorizados.",
+        "gabarito": "C",
+        "justificativa": "Conceito técnico de vigilância e contravigilância.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 39,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "As operações de inteligência são ações voltadas exclusivamente para a obtenção de dados brutos que não podem ser obtidos por fontes abertas.",
+        "gabarito": "E",
+        "justificativa": "Operações também podem visar a execução de medidas de contrainteligência ou suporte logístico especializado, não apenas obtenção de dados.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 40,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A contrainteligência divide-se em segurança orgânica (proteção da própria estrutura) e segurança ativa (detecção e neutralização de ameaças externas).",
+        "gabarito": "C",
+        "justificativa": "Estrutura doutrinária clássica.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 41,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização primária refere-se aos danos sofridos pela vítima em decorrência direta da prática do crime.",
+        "gabarito": "C",
+        "justificativa": "Diferenciação entre primária, secundária (revitimização pelo Estado) e terciária (estigma social).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 42,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização secundária, também chamada de sobrevitimizadora, ocorre quando a vítima é maltratada ou negligenciada pelas instâncias de controle formal (Polícia, Judiciário).",
+        "gabarito": "C",
+        "justificativa": "Fundamento da Vitimologia moderna.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 43,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção primária foca nas causas do crime, atuando sobre o meio ambiente, educação e bem-estar social para evitar que o fenômeno delitivo surja.",
+        "gabarito": "C",
+        "justificativa": "Modelo clássico de prevenção criminal.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 44,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção secundária atua sobre grupos específicos de risco ou em locais onde a criminalidade é iminente, como áreas de alta vulnerabilidade.",
+        "gabarito": "C",
+        "justificativa": "Prevenção dirigida.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 45,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "A 'Estimativa' é o tipo de conhecimento que visa prever a evolução de fenômenos e comportamentos futuros com base em dados atuais e tendências.",
+        "gabarito": "C",
+        "justificativa": "Doutrina da METOP.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 46,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "A avaliação da fonte e do dado é uma etapa obrigatória na produção do conhecimento, sendo comumente utilizado o sistema alfanumérico (Ex: A1, B2).",
+        "gabarito": "C",
+        "justificativa": "Padrão de confiabilidade da fonte e veracidade do dado.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 47,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A teoria da anomia de Robert Merton sustenta que o crime surge da discrepância entre as metas culturais (sucesso financeiro) e os meios institucionalizados para alcançá-las.",
+        "gabarito": "C",
+        "justificativa": "Conceito de anomia social.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 48,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "A prioridade absoluta do primeiro policial a chegar ao local de crime é o isolamento da área, sendo vedado o socorro a vítimas se isso implicar na alteração do estado das coisas.",
+        "gabarito": "E",
+        "justificativa": "O socorro à vida precede a preservação do local (princípio do auxílio). No entanto, o policial deve registrar o que foi alterado para o socorro.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 49,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Local imediato é aquele onde ocorreu o fato principal e onde se encontra a maior concentração de vestígios.",
+        "gabarito": "C",
+        "justificativa": "Definição técnica de local imediato.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 50,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "O 'Transporte' é a etapa da cadeia de custódia que consiste na transferência do vestígio de um local para outro, devendo garantir a manutenção de suas características originais.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, VIII do CPP.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 51,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "A Convenção Americana sobre Direitos Humanos admite a suspensão de direitos fundamentais em casos de guerra ou de outro perigo público que ameace a independência ou segurança do Estado, exceto o direito à vida e à integridade pessoal.",
+        "gabarito": "C",
+        "justificativa": "Art. 27 da CADH (Cláusula de Derrogação).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 52,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "De acordo com a CADH, toda pessoa tem o direito de ser ouvida, com as devidas garantias e dentro de um prazo razoável, por um juiz ou tribunal competente, independente e imparcial.",
+        "gabarito": "C",
+        "justificativa": "Art. 8º da CADH (Garantias Judiciais).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 53,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "Consideram-se instrumentos de menor potencial ofensivo aqueles projetados especificamente para conter, debilitar ou incapacitar temporariamente pessoas, com baixa probabilidade de causar mortes ou lesões permanentes.",
+        "gabarito": "C",
+        "justificativa": "Conceito legal da Lei 13.060/14.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 54,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "Criminalística: Vestígios",
+        "enunciado": "Vestígio ilusório é aquele que, embora encontrado no local de crime, não possui relação com o evento investigado, tendo sido depositado no local de forma acidental antes ou depois do crime.",
+        "gabarito": "C",
+        "justificativa": "Classificação doutrinária de vestígios.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 55,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "Criminalística: Vestígios",
+        "enunciado": "Vestígio forjado é aquele que foi propositalmente colocado no local para induzir o perito ou o investigador ao erro sobre as circunstâncias do crime.",
+        "gabarito": "C",
+        "justificativa": "Conceito de vestígio forjado (fraude procesual).",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 56,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "A 'Coleta' é a etapa da cadeia de custódia que consiste no recolhimento físico do vestígio, após os procedimentos de fixação.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, IV do CPP.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 57,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O Decreto nº 12.341/2024, que regulamenta o uso da força, estabelece que a advertência verbal deve anteceder o uso de qualquer nível de força, salvo quando tal advertência colocar o profissional ou terceiros em risco imediato.",
+        "gabarito": "C",
+        "justificativa": "Diretrizes atualizadas sobre uso da força.",
+        "fonte": "Inédita (Legislação 2024)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 58,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Estruturas Lógicas",
+        "enunciado": "A proposição 'O policial legislativo é treinado e a segurança é garantida' tem como negação 'O policial legislativo não é treinado ou a segurança não é garantida'.",
+        "gabarito": "C",
+        "justificativa": "Lei de De Morgan: ~(P ^ Q) <=> ~P v ~Q.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 59,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "O desvio padrão é calculado como a raiz quadrada da variância, possuindo a mesma unidade de medida que os dados originais.",
+        "gabarito": "C",
+        "justificativa": "Propriedade fundamental do desvio padrão.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 60,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "Em um conjunto de dados onde todos os valores são iguais, a variância e o desvio padrão são iguais a zero.",
+        "gabarito": "C",
+        "justificativa": "Se não há variação, as medidas de dispersão são nulas.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 61,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Rootkits são malwares projetados para obter privilégios de administrador no sistema e ocultar sua presença e a de outros componentes maliciosos dos mecanismos de detecção.",
+        "gabarito": "C",
+        "justificativa": "Definição técnica de Rootkit.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 62,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Um Cavalo de Troia (Trojan) diferencia-se de um Vírus por não ter a capacidade de se autorreplicar, dependendo da execução do arquivo infectado pelo usuário.",
+        "gabarito": "C",
+        "justificativa": "Diferença fundamental entre Trojan e Vírus/Worm.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 63,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "No modelo IaaS (Infrastructure as a Service), o provedor de nuvem é responsável pelo gerenciamento dos dados e das aplicações instaladas pelo usuário.",
+        "gabarito": "E",
+        "justificativa": "No IaaS, o usuário é responsável pelos dados e aplicações; o provedor gerencia apenas a infraestrutura básica (servidores, redes, storage).",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 64,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "Um Escore Z de +2,0 indica que o valor observado está dois desvios-padrão acima da média do conjunto de dados.",
+        "gabarito": "C",
+        "justificativa": "Definição de escore padronizado.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 65,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "O método de Tukey para identificação de outliers utiliza limites baseados em 1,5 vezes o intervalo interquartílico (IQR) acima do terceiro quartil e abaixo do primeiro quartil.",
+        "gabarito": "C",
+        "justificativa": "Padrão estatístico para delimitação de outliers em Boxplots.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 66,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Modelos 'Self-Attention' permitem que o Transformer processe diferentes partes de uma frase simultaneamente, atribuindo pesos diferentes a cada palavra conforme sua relevância contextual.",
+        "gabarito": "C",
+        "justificativa": "Mecanismo central da arquitetura Transformer.",
+        "fonte": "Inédita (Tecnologia 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 67,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "A função `df.describe()` no Pandas fornece um resumo estatístico das colunas numéricas de um DataFrame, incluindo média, desvio padrão, valores mínimos e máximos.",
+        "gabarito": "C",
+        "justificativa": "Funcionalidade básica de análise exploratória de dados.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 68,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "A Polícia da Câmara dos Deputados deve, em situações de flagrante delito ocorrido nas dependências da Casa, realizar a prisão e lavrar o auto de prisão em flagrante, encaminhando-o posteriormente à autoridade judiciária competente.",
+        "gabarito": "C",
+        "justificativa": "Poder de polícia próprio do Poder Legislativo conforme STF e normas internas.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 69,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "As Comissões Parlamentares de Inquérito (CPI) possuem poderes de investigação próprios das autoridades judiciais, podendo determinar a quebra de sigilo bancário, fiscal e telefônico dos investigados mediante decisão fundamentada.",
+        "gabarito": "C",
+        "justificativa": "Art. 58, §3º da CF/88. Nota: CPI não pode determinar interceptação telefônica (escuta), apenas a quebra do sigilo dos dados.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 70,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "Na Lei 14.133/2021, o critério de julgamento 'maior desconto' é aplicável exclusivamente à modalidade de leilão.",
+        "gabarito": "E",
+        "justificativa": "O critério de maior desconto pode ser usado em concorrência e pregão também.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 71,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "A revogação do ato administrativo opera efeitos ex tunc, retroagindo à data da criação do ato para eliminar todos os seus efeitos passados.",
+        "gabarito": "E",
+        "justificativa": "A revogação opera efeitos 'ex nunc' (não retroage). A anulação é que opera efeitos 'ex tunc'.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 72,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "Os servidores da Polícia Legislativa possuem porte de arma funcional em todo o território nacional, condicionado à comprovação de capacidade técnica e aptidão psicológica.",
+        "gabarito": "C",
+        "justificativa": "Estatuto do Desarmamento e regulamentações internas da Casa.",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 73,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "Os créditos adicionais extraordinários são destinados a despesas urgentes e imprevistas, como em caso de guerra, comoção interna ou calamidade pública, sendo abertos por medida provisória.",
+        "gabarito": "C",
+        "justificativa": "Art. 167, §3º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 74,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "O Quorum para aprovação de lei complementar é a maioria absoluta dos membros da Câmara dos Deputados e do Senado Federal.",
+        "gabarito": "C",
+        "justificativa": "Art. 69 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 75,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "A perda da função pública sanção decorrente de ato de improbidade administrativa atinge apenas o vínculo de mesma natureza e órgão que o agente detinha no momento da prática do ato ilícito.",
+        "gabarito": "E",
+        "justificativa": "Regra geral atinge o vínculo atual, mas o juiz pode estender a outros conforme a gravidade e circunstâncias (STJ).",
+        "fonte": "Inédita (Edital 2026)",
+        "tipo": "C/E"
     }
 ]
