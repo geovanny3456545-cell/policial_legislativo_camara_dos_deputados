@@ -2848,5 +2848,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Escola Positiva (Lombroso).",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 286,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "A Lei 14.133/2021 estabelece que a fase de habilitação deve sempre preceder a fase de julgamento das propostas, visando garantir a idoneidade do licitante antes da análise técnica.",
+        "gabarito": "E",
+        "justificativa": "A regra na Nova Lei de Licitações (Art. 17) é a inversão de fases (julgamento antes da habilitação).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 287,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "Ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, VIII da CF/88 (Escusa de Consciência).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 288,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "A negação de 'Todo policial é diligente' é 'Nenhum policial é diligente'.",
+        "gabarito": "E",
+        "justificativa": "A negação de Todo é 'Pelo menos um não é' (Algum policial não é diligente).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 289,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "Um sistema operacional de 64 bits pode endereçar uma quantidade significativamente maior de memória RAM do que um sistema de 32 bits, que é limitado a aproximadamente 4 GB.",
+        "gabarito": "C",
+        "justificativa": "Diferença técnica entre arquiteturas de 32 e 64 bits.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 290,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "O controle social informal é aquele exercido pela família, escola, igreja e ambiente de trabalho, atuando de forma preventiva e educativa.",
+        "gabarito": "C",
+        "justificativa": "Definição de controle social informal.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
