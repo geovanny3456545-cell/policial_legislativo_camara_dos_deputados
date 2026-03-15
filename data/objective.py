@@ -1648,5 +1648,185 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "O IPv4 possui 32 bits. O IPv6 é que possui 128 bits.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 166,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Pharming é uma técnica que corrompe o sistema de resolução de nomes (DNS) para redirecionar o usuário para sites fraudulentos, mesmo que ele digite o endereço correto.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Pharming vs Phishing.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 167,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "A virtualização permite que múltiplos sistemas operacionais rodem simultaneamente em um único hardware físico, isolados uns dos outros.",
+        "gabarito": "C",
+        "justificativa": "Conceito de virtualização.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 168,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "O método `df.dropna()` no Pandas é utilizado para remover linhas ou colunas que contenham valores ausentes (NaN).",
+        "gabarito": "C",
+        "justificativa": "Limpeza de dados com Pandas.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 169,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "O 'Prompt Engineering' é o processo de refinar as instruções dadas a um modelo de IA para obter resultados mais precisos e úteis.",
+        "gabarito": "C",
+        "justificativa": "Conceito moderno de interação com LLMs.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 170,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "O Firewall é um dispositivo de segurança que monitora o tráfego de rede e decide se permite ou bloqueia pacotes com base em regras predefinidas.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Firewall.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 171,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Data Lake é um repositório que armazena grandes volumes de dados brutos e não estruturados em seu formato original até que sejam necessários.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Data Lake vs Data Warehouse.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 172,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O modelo OSI é composto por 5 camadas, sendo a camada física a mais alta e a camada de aplicação a mais baixa.",
+        "gabarito": "E",
+        "justificativa": "O modelo OSI possui 7 camadas. A física é a camada 1 (mais baixa) e a aplicação é a camada 7 (mais alta).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 173,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "O processo de 'Paging' no sistema operacional permite que a memória física seja dividida em blocos de tamanho fixo para otimizar o uso da memória virtual.",
+        "gabarito": "C",
+        "justificativa": "Gerenciamento de memória em SO.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 174,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da autotutela permite que a Administração Pública anule seus próprios atos, quando eivados de vícios que os tornam ilegais, ou os revogue, por motivo de conveniência ou oportunidade.",
+        "gabarito": "C",
+        "justificativa": "Súmula 473 do STF.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 175,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da moralidade administrativa exige que o agente público atue não apenas conforme a lei, mas também de acordo com a ética, a lealdade e a boa-fé.",
+        "gabarito": "C",
+        "justificativa": "Fundamento do Art. 37 da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 176,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 177,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "É livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XV da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 178,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder hierárquico permite que o superior dê ordens, fiscalize, reveja atos e delegue competências aos seus subordinados.",
+        "gabarito": "C",
+        "justificativa": "Conceito de poder hierárquico.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 179,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder de polícia administrativa incide apenas sobre as pessoas, não podendo restringir o uso e o gozo de bens ou atividades privadas.",
+        "gabarito": "E",
+        "justificativa": "O poder de polícia incide sobre bens, direitos e atividades em prol do interesse coletivo.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 180,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "A Câmara dos Deputados compõe-se de representantes do povo, eleitos pelo sistema proporcional em cada Estado, em cada Território e no Distrito Federal.",
+        "gabarito": "C",
+        "justificativa": "Art. 45 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 181,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "O Senado Federal compõe-se de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio majoritário.",
+        "gabarito": "C",
+        "justificativa": "Art. 46 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 182,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A responsabilidade civil do Estado no Brasil é, em regra, objetiva, baseada na teoria do risco administrativo.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, §6º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 183,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "Para a configuração da responsabilidade objetiva do Estado, é necessário que o lesado comprove o dolo ou a culpa do agente público.",
+        "gabarito": "E",
+        "justificativa": "Na responsabilidade objetiva, dispensa-se a prova de dolo ou culpa do agente; basta o dano e o nexo causal.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
