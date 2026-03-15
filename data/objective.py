@@ -2698,5 +2698,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Conceito de vitimização terciária.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 271,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A CPU (Unidade Central de Processamento) é composta pela Unidade Lógica e Aritmética (ULA) e pela Unidade de Controle (UC).",
+        "gabarito": "C",
+        "justificativa": "Arquitetura básica de processadores.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 272,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "Um firewall de aplicação (WAF) opera na camada 7 do modelo OSI, filtrando o tráfego HTTP/HTTPS para proteger servidores web contra ataques como SQL Injection.",
+        "gabarito": "C",
+        "justificativa": "Conceito de WAF.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 273,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "Hadoop e Spark são frameworks de processamento distribuído amplamente utilizados no ecossistema de Big Data para lidar com grandes volumes de dados não estruturados.",
+        "gabarito": "C",
+        "justificativa": "Tecnologias de Big Data.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 274,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O modelo OSI possui 7 camadas, sendo a camada física a mais baixa e a camada de aplicação a mais alta.",
+        "gabarito": "C",
+        "justificativa": "Conceito de redes.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 275,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "Em Python, o método `fillna()` do Pandas é utilizado para substituir valores ausentes (NaN) por um valor específico ou um método de preenchimento.",
+        "gabarito": "C",
+        "justificativa": "Tratamento de dados com Python.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
