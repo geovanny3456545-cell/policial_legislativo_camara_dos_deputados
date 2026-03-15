@@ -1158,5 +1158,215 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Geralmente classificado como prevenção primária (social) ou secundária (focada se em áreas de risco), mas o item erra ao generalizar ou fundamentar mal.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 117,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "Hans Gross é considerado o 'pai da Criminalística' por ter consolidado os conhecimentos dispersos de diversas ciências para auxiliar na investigação criminal.",
+        "gabarito": "C",
+        "justificativa": "Fundamento histórico da Criminalística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 118,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "A Criminalística é uma ciência auxiliar do Direito que tem como objeto o estudo do crime como fenômeno social e humano.",
+        "gabarito": "E",
+        "justificativa": "Esse é o objeto da Criminologia. A Criminalística foca nos vestígios materiais (estudo técnico-científico do local e objetos).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 119,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "O princípio da observação (ou princípio de Locard) sustenta que 'todo contato deixa um rastro'.",
+        "gabarito": "C",
+        "justificativa": "Base da perícia moderna.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 120,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "A Criminalística atua exclusivamente na fase pré-processual, não tendo qualquer utilidade após a denúncia pelo Ministério Público.",
+        "gabarito": "E",
+        "justificativa": "A prova pericial é fundamental em toda a persecução penal, inclusive no julgamento.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 121,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "1. Conceito e Histórico da Criminalística",
+        "enunciado": "O perito criminal deve ser imparcial e técnico, diferentemente do assistente técnico, que pode ser contratado pelas partes.",
+        "gabarito": "C",
+        "justificativa": "Diferenciação conforme CPP.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 122,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Evidência é o vestígio que, após analisado, demonstra possuir relação direta com a dinâmica do fato sob investigação.",
+        "gabarito": "C",
+        "justificativa": "Conceito de evidência na pirâmide da prova material.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 123,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígios macroscópicos são aqueles que exigem obrigatoriamente o uso de microscopia eletrônica para serem visualizados.",
+        "gabarito": "E",
+        "justificativa": "Macroscópicos são visíveis a olho nu. Microscópicos exigem aparelhos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 124,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "Vestígio transitório é aquele que tende a desaparecer com o tempo ou com a exposição a intempéries, como pegadas na areia ou odores.",
+        "gabarito": "C",
+        "justificativa": "Classificação de vestígios pela durabilidade.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 125,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.1 Criminalística: Vestígios",
+        "enunciado": "No local de crime, o perito deve priorizar a coleta de vestígios biológicos, pois estes são os únicos que garantem a autoria delitiva.",
+        "gabarito": "E",
+        "justificativa": "Não há hierarquia absoluta; o isolamento e a preservação visam todos os vestígios. Além disso, vestígios datiloscópicos ou digitais também são altamente individualizadores.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 126,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "A quebra da cadeia de custódia gera, obrigatoriamente, a nulidade absoluta de todo o processo penal, independentemente de prova de prejuízo.",
+        "gabarito": "E",
+        "justificativa": "A jurisprudência atual tende a considerar irregularidade que afeta o valor probatório, devendo ser analisado o caso concreto (princípio do pas de nullité sans grief).",
+        "fonte": "Existente (Cebraspe/STJ)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 127,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "A etapa da 'Fixação' deve ocorrer após a etapa da 'Coleta' do vestígio.",
+        "gabarito": "E",
+        "justificativa": "A fixação (descrever, fotografar) deve ocorrer ANTES da coleta (recolher), para registrar a posição original do vestígio.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 128,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "2.2 Cadeia de Custódia (CPP)",
+        "enunciado": "O 'Descarte' é a etapa final da cadeia de custódia, onde o vestígio é destruído ou devolvido, mediante autorização judicial.",
+        "gabarito": "C",
+        "justificativa": "Art. 158-B, X do CPP.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 129,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "O isolamento do local de crime deve ser feito pelo primeiro policial que chegar, utilizando-se de fitas, cavaletes ou outros meios que impeçam o acesso de curiosos.",
+        "gabarito": "C",
+        "justificativa": "Dever legal (Art. 6º, I do CPP).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 130,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Ao entrar no local para prestar socorro, o policial deve evitar tocar em objetos que não sejam estritamente necessários para o salvamento.",
+        "gabarito": "C",
+        "justificativa": "Preservação máxima possível.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 131,
+        "disciplina": "Criminologia e Noções de Criminalística",
+        "topico": "3. Local de Crime",
+        "enunciado": "Local inidôneo é aquele que foi preservado adequadamente até a chegada da perícia.",
+        "gabarito": "E",
+        "justificativa": "O local preservado é idôneo. O inidôneo é o que foi violado ou alterado.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 132,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "A CADH (Pacto de São José da Costa Rica) veda o restabelecimento da pena de morte nos Estados que a tenham abolido.",
+        "gabarito": "C",
+        "justificativa": "Art. 4º, item 3 da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 133,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "O direito à liberdade de consciência e de religião pode ser objeto de suspensão em caso de emergência pública que ameace a nação.",
+        "gabarito": "E",
+        "justificativa": "A liberdade de consciência e religião é um dos direitos que NÃO podem ser suspensos (Art. 27, 2 da CADH).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 134,
+        "disciplina": "Direitos Humanos",
+        "topico": "1.3 Convenção Americana sobre Direitos Humanos",
+        "enunciado": "A Comissão Interamericana de Direitos Humanos tem competência para submeter casos à Corte Interamericana.",
+        "gabarito": "C",
+        "justificativa": "Fluxo do sistema interamericano.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 135,
+        "disciplina": "Direitos Humanos",
+        "topico": "Lei nº 13.060/2014",
+        "enunciado": "A Lei 13.060/2014 veda o uso de arma de fogo contra veículo que desrespeite bloqueio policial em via pública, desde que não haja risco de vida ao policial ou a terceiros.",
+        "gabarito": "C",
+        "justificativa": "Art. 2º, Parágrafo único, inciso I.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 136,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O uso de algemas é a regra em toda abordagem policial, visando a segurança da equipe e a prevenção de fuga.",
+        "gabarito": "E",
+        "justificativa": "O uso de algemas é exceção, devendo ser justificado por escrito fundamentado no risco de fuga ou perigo à integridade (Súmula Vinculante 11 e Decreto 12.341/24).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 137,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A inclusão no programa de proteção a vítimas e testemunhas exige a anuência do interessado, não podendo ser imposta compulsoriamente.",
+        "gabarito": "C",
+        "justificativa": "Voluntariedade é princípio da Lei 9.807/99.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
