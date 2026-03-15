@@ -2438,5 +2438,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 158-B, VII do CPP.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 245,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "O controle social formal é exercido pelo Estado através da polícia, justiça e sistema penitenciário.",
+        "gabarito": "C",
+        "justificativa": "Fundamento teórico do controle social.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 246,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção terciária foca na reabilitação e reintegração social do condenado para evitar a reincidência criminal.",
+        "gabarito": "C",
+        "justificativa": "Conceito de prevenção terciária.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 247,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "4. Medidas de Dispersão",
+        "enunciado": "O desvio padrão é a raiz quadrada da variância e expressa a dispersão dos dados na mesma unidade da média.",
+        "gabarito": "C",
+        "justificativa": "Conceito estatístico fundamental.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 248,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Ransomware é um tipo de malware que criptografa os arquivos do usuário e exige pagamento de resgate para a disponibilização da chave de descriptografia.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Ransomware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 249,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "Em Python, o comando `import pandas as pd` é comumente utilizado para carregar a biblioteca Pandas, facilitando a manipulação de DataFrames.",
+        "gabarito": "C",
+        "justificativa": "Prática comum em ciência de dados.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
