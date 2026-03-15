@@ -2748,5 +2748,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Tratamento de dados com Python.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 276,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "A afirmação 'Todo policial é herói' é equivalente a dizer que não existe policial que não seja herói.",
+        "gabarito": "C",
+        "justificativa": "Equivalência lógica de quantificadores.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 277,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "3. Equivalências Lógicas",
+        "enunciado": "A proposição 'Ou o policial está no posto ou ele está em patrulha' é equivalente a 'O policial está no posto se e somente se ele não está em patrulha'.",
+        "gabarito": "C",
+        "justificativa": "Equivalência entre disjunção exclusiva e bicondicional negada.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 278,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "5. Normalização e Padronização: Escore Z",
+        "enunciado": "O cálculo do escore Z permite comparar valores de diferentes populações ao transformá-los em uma escala comum baseada no desvio padrão.",
+        "gabarito": "C",
+        "justificativa": "Finalidade da padronização estatística.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 279,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "7. Outliers",
+        "enunciado": "Em uma análise de regressão, os outliers podem afetar significativamente a inclinação da reta de ajuste, influenciando o coeficiente de determinação R².",
+        "gabarito": "C",
+        "justificativa": "Impacto de valores extremos em modelos estatísticos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 280,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "Na amostragem por clusters (conglomerados), a população é dividida em grupos heterogêneos e alguns desses grupos são selecionados aleatoriamente para estudo integral.",
+        "gabarito": "C",
+        "justificativa": "Definição de amostragem por conglomerados.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
