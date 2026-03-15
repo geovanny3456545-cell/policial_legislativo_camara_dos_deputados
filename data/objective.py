@@ -1978,5 +1978,65 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 5º, II da LGPD.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 199,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da eficiência, introduzido pela EC 19/98, impõe à Administração Direta e Indireta e a seus agentes a busca por resultados positivos e a redução de desperdícios.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, caput, CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 200,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "São atributos do ato administrativo: a presunção de legitimidade, a imperatividade, a autoexecutoriedade e a tipicidade.",
+        "gabarito": "C",
+        "justificativa": "Doutrina majoritária (Maria Sylvia Zanella Di Pietro).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 201,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "O desvio de finalidade ocorre quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
+        "gabarito": "C",
+        "justificativa": "Espécie de abuso de poder.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 202,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "As Comissões Parlamentares de Inquérito detêm poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas.",
+        "gabarito": "C",
+        "justificativa": "Art. 58, §3º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 203,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "O quorum para instalação das sessões da Câmara dos Deputados é de 1/10 (um décimo) de seus membros.",
+        "gabarito": "C",
+        "justificativa": "Previsão regimental específica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 204,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "A convocação extraordinária do Congresso Nacional pode ser feita pelo Presidente da República ou a requerimento da maioria absoluta de ambas as Casas.",
+        "gabarito": "C",
+        "justificativa": "Art. 57, §6º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
