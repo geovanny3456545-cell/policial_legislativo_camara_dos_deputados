@@ -106,28 +106,68 @@ if mode == "Arena Objetiva (C/E)":
                 </div>
                 """, unsafe_allow_html=True)
             
-            col1, col2, col3 = st.columns([1, 1, 4])
+            col1, col2, col3, col4 = st.columns([1, 1, 1, 3])
             with col1:
                 if st.button(f"Certo", key=f"c_{q['id']}"):
+                    st.session_state[f"answered_{q['id']}"] = True
                     if q['gabarito'] == "C": st.success("Correto!")
                     else: st.error("Errado!")
                     st.info(f"**Justificativa:** {q['justificativa']}")
             with col2:
                 if st.button(f"Errado", key=f"e_{q['id']}"):
+                    st.session_state[f"answered_{q['id']}"] = True
                     if q['gabarito'] == "E": st.success("Correto!")
                     else: st.error("Errado!")
                     st.info(f"**Justificativa:** {q['justificativa']}")
+            
+            with col3:
+                if st.button("⚖️ Contestar", key=f"cont_{q['id']}"):
+                    st.session_state[f"show_contest_{q['id']}"] = True
+
+            if st.session_state.get(f"show_contest_{q['id']}"):
+                reason = st.text_area("Descreva o motivo da sua contestação:", key=f"reason_{q['id']}")
+                if st.button("Submeter Recurso", key=f"sub_{q['id']}"):
+                    st.markdown("#### 🤖 Análise do Recurso (Padrão Cebraspe)")
+                    # Lógica de argumentação simulada
+                    st.write(f"Prezado Candidato, analisamos sua contestação sobre o item {q['id']}. Com base no Edital e nos temas de **{q['disciplina']}**, nossa equipe técnica argumenta:")
+                    st.markdown(f"> *Embora o ponto levantado seja relevante, a banca Cebraspe mantém o entendimento de que a assertiva está correta/incorreta conforme a literalidade da norma ou jurisprudência consolidada citada na justificativa: {q['justificativa']}. O recurso foi INDEFERIDO.*")
 
 elif mode == "Laboratório Discursivo":
     st.subheader("✍️ Casos Práticos e Peças Técnicas")
     
-    # Filtragem para discursivas (Penal/Proc Penal foco total aqui)
+    # CSS para o badge de Grande Aposta
+    st.markdown("""
+        <style>
+        .high-stakes-card {
+            border: 2px solid #FFD700 !important;
+            background: rgba(255, 215, 0, 0.1) !important;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .aposta-badge {
+            background-color: #FFD700;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
     disc_qs = DISCURSIVE_CASES
     if selected_subject != "Todas":
         disc_qs = [case for case in DISCURSIVE_CASES if case['disciplina'] == selected_subject]
 
+    # Ordenar: Grande Aposta primeiro
+    disc_qs = sorted(disc_qs, key=lambda x: x.get('grande_aposta', False), reverse=True)
+
     for case in disc_qs:
-        with st.expander(f"📌 {case['titulo']} - {case['disciplina']}"):
+        badge = '<span class="aposta-badge">🔥 GRANDE APOSTA</span> ' if case.get('grande_aposta') else ""
+        class_name = "high-stakes-card" if case.get('grande_aposta') else ""
+        
+        with st.expander(f"{badge}{case['titulo']} - {case['disciplina']}"):
             st.markdown(f"**Caso:** {case['caso']}")
             st.warning(f"**Enunciado:** {case['pergunta']}")
             

@@ -2138,5 +2138,85 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 122 da Lei 14.133/2021.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 215,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O poder regulamentar é a prerrogativa conferida aos chefes do Poder Executivo para editar atos administrativos gerais e abstratos com o objetivo de fiel execução das leis.",
+        "gabarito": "C",
+        "justificativa": "Art. 84, IV da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 216,
+        "disciplina": "Direito Administrativo",
+        "topico": "4. Poderes da Administração",
+        "enunciado": "O abuso de poder pode ocorrer na modalidade excesso de poder (quando o agente atua fora de sua competência) ou desvio de finalidade (quando o fim é ilícito).",
+        "gabarito": "C",
+        "justificativa": "Espécies de abuso de poder.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 217,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "A ação de regresso contra o agente público causador do dano só poderá ser exercida após a condenação definitiva do Estado e exige a comprovação de dolo ou culpa do servidor.",
+        "gabarito": "C",
+        "justificativa": "Art. 37, §6º da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 218,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "A decretação de intervenção federal depende de requisição do STF nas hipóteses de desobediência a ordem ou decisão judiciária.",
+        "gabarito": "C",
+        "justificativa": "Art. 36, II da CF/88.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 219,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "O PPA (Plano Plurianual) estabelece, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para as despesas de capital.",
+        "gabarito": "C",
+        "justificativa": "Art. 165, §1º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 220,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "A inversão de fases (julgamento antes da habilitação) é a regra geral na Nova Lei de Licitações (Lei 14.133/2021).",
+        "gabarito": "C",
+        "justificativa": "Art. 17 da Lei 14.133/2021.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 221,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da supremacia do interesse público sobre o privado é absoluto, permitindo que a Administração anule direitos individuais sem o devido processo legal em casos de urgência.",
+        "gabarito": "E",
+        "justificativa": "Nenhum princípio é absoluto; a supremacia deve coexistir com o devido processo legal e outros direitos fundamentais.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 222,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "Compete à Polícia Legislativa a custódia de presos nas dependências da Câmara dos Deputados até a lavratura do auto de flagrante ou transferência para o sistema prisional.",
+        "gabarito": "C",
+        "justificativa": "Norma interna de policiamento.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
