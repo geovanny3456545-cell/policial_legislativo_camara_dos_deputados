@@ -748,5 +748,415 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Regra geral atinge o vínculo atual, mas o juiz pode estender a outros conforme a gravidade e circunstâncias (STJ).",
         "fonte": "Inédita (Edital 2026)",
         "tipo": "C/E"
+    },
+    {
+        "id": 76,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A inteligência estratégica tem como foco principal o processo de tomada de decisão em nível operacional, visando a neutralização imediata de ameaças táticas.",
+        "gabarito": "E",
+        "justificativa": "A inteligência estratégica foca no nível de formulação de políticas e planejamento de longo prazo, não no nível operacional/tático.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 77,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "O dado, no contexto da inteligência, é o conhecimento já processado e avaliado pelo analista, pronto para ser difundido ao decisor.",
+        "gabarito": "E",
+        "justificativa": "O dado é o elemento bruto; o conhecimento processado e avaliado é a 'Inteligência' propriamente dita.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 78,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A Atividade de Inteligência, embora utilize métodos de investigação, distingue-se da investigação policial por não ter como fim precípuo a produção de prova judicial.",
+        "gabarito": "C",
+        "justificativa": "A inteligência visa assessorar a decisão; a investigação visa instruir processo penal.",
+        "fonte": "Existente (ABIN/Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 79,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A salvaguarda de ativos é um dos pilares da contrainteligência, abrangendo a proteção de pessoal, de documentação, de instalações e de sistemas de informação.",
+        "gabarito": "C",
+        "justificativa": "Conceitos de Segurança Orgânica.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 80,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "A inteligência competitiva é uma ramificação da atividade de inteligência estatal voltada exclusivamente para o monitoramento de potências estrangeiras rivais.",
+        "gabarito": "E",
+        "justificativa": "A inteligência competitiva é geralmente praticada no setor privado (corporativo) para monitorar concorrentes de mercado.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 81,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.1 Conceitos de Inteligência",
+        "enunciado": "O sigilo é condição essencial para a atividade de inteligência, devendo o analista zelar pelo princípio do 'preciso saber'.",
+        "gabarito": "C",
+        "justificativa": "Princípio básico do acesso compartilhado apenas a quem tem necessidade funcional.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 82,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A função 'Inteligência' visa a produção de conhecimentos sobre o ambiente externo e ameaças, enquanto a 'Contrainteligência' visa a proteção da própria instituição.",
+        "gabarito": "C",
+        "justificativa": "Divisão doutrinária das duas funções clássicas.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 83,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "As operações de inteligência, como infiltração e vigilância, são ferramentas exclusivas da função de Contrainteligência.",
+        "gabarito": "E",
+        "justificativa": "As operações podem ser usadas tanto para obter dados (Inteligência) quanto para detectar/neutralizar agentes infiltrados (Contrainteligência).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 84,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A função de segurança orgânica foca na neutralização de ameaças externas por meio de ações de desinformação.",
+        "gabarito": "E",
+        "justificativa": "Segurança orgânica é defensiva/interna. Ações de desinformação são de segurança ativa (Contrainteligência proativa).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 85,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A obtenção de dados por fontes abertas (OSINT) é considerada uma atividade legítima da função de Inteligência.",
+        "gabarito": "C",
+        "justificativa": "OSINT é fundamental e lícita.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 86,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A produção de conhecimentos para a segurança institucional da Câmara dos Deputados é uma aplicação direta das funções de inteligência e contrainteligência.",
+        "gabarito": "C",
+        "justificativa": "Core business da Polícia Legislativa.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 87,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.2 Funções da Atividade de Inteligência",
+        "enunciado": "A contrainteligência proativa visa antecipar-se às ações de serviços de inteligência adversários por meio da detecção de sinais de recrutamento de agentes internos.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Segurança Ativa.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 88,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "No ciclo de inteligência, o 'Planejamento e Orientação' é a fase onde se definem as Necessidades de Inteligência (NI).",
+        "gabarito": "C",
+        "justificativa": "Primeira fase do ciclo.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 89,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "Um 'Relatório de Inteligência' (RELINT) é o documento final utilizado exclusivamente para registrar fatos passados sobre os quais o analista tem 100% de certeza.",
+        "gabarito": "E",
+        "justificativa": "O RELINT pode conter Estimativas e Prognósticos (futuro/incerto), não apenas fatos certos.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 90,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "A fase de 'Processamento' envolve a proteção do conhecimento produzido contra vazamentos acidentais.",
+        "gabarito": "E",
+        "justificativa": "Processamento envolve avaliação, análise, integração e interpretação. Proteção é contrainteligência/segurança.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 91,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "A 'Interpretação' é o ponto culminante do processamento, onde o analista estabelece o significado e as implicações futuras do conhecimento produzido.",
+        "gabarito": "C",
+        "justificativa": "Conceito doutrinário de Interpretação.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 92,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "1.3 Metodologia de Produção de Conhecimentos",
+        "enunciado": "A 'Análise' consiste na decomposição do fenômeno em seus elementos constitutivos para facilitar a compreensão.",
+        "gabarito": "C",
+        "justificativa": "Etapa lógica da METOP.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 93,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A Política Nacional de Inteligência (PNI) estabelece as diretrizes e objetivos de longo prazo para a atividade de inteligência no Brasil, sendo revisada periodicamente e fixada por decreto presidencial.",
+        "gabarito": "C",
+        "justificativa": "Conforme Decreto 8.793/16.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 94,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "Um dos objetivos da PNI é a proteção do conhecimento sensível contra tentativas de espionagem cibernética de atores estatais e não estatais.",
+        "gabarito": "C",
+        "justificativa": "Ameaças cibernéticas são prioridade na PNI.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 95,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A PNI veda a cooperação internacional entre o SISBIN e serviços de inteligência estrangeiros para preservar a soberania nacional.",
+        "gabarito": "E",
+        "justificativa": "A cooperação internacional é incentivada, respeitados os limites legais e a reciprocidade.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 96,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A PNI define que a atividade de inteligência deve atuar sob estrita observância da lei e dos direitos e garantias individuais.",
+        "gabarito": "C",
+        "justificativa": "Diretriz de Legalidade da PNI.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 97,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "A 'Ação de Busca' é uma operação voltada para a obtenção de dados indisponíveis em fontes abertas, utilizando-se de técnicas especializadas.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Busca na doutrina de operações.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 98,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "O 'Recrutamento Operacional' é o processo de sensibilizar e convencer um colaborador a fornecer informações de forma clandestina.",
+        "gabarito": "C",
+        "justificativa": "Etapa fundamental das operações de inteligência humana (HUMINT).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 99,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "O 'Estudo de Situação' é a fase de execução de uma operação, onde os agentes entram em contato direto com o alvo.",
+        "gabarito": "E",
+        "justificativa": "O estudo de situação é uma fase de planejamento e análise prévia à execução.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 100,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "O 'Disfarce' é uma técnica utilizada exclusivamente para proteção da identidade física do agente em campo.",
+        "gabarito": "E",
+        "justificativa": "Pode servir também para infiltração, coleta de dados ou apoio logístico, não apenas proteção.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 101,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A Escola Clássica da Criminologia baseia-se no livre-arbítrio, defendendo que o criminoso escolhe racionalmente cometer o crime visando o prazer e evitando a dor.",
+        "gabarito": "C",
+        "justificativa": "Fundamento clássico (Beccaria/Bentham).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 102,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A Escola Positiva, liderada por Lombroso, sustenta que o criminoso é um ser atávico, com tendências biológicas inatas para o crime.",
+        "gabarito": "C",
+        "justificativa": "Conceito de criminoso nato.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 103,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A teoria da anomia de Durkheim vê o crime como um fenômeno social normal e até necessário para a evolução e reforço dos valores da sociedade.",
+        "gabarito": "C",
+        "justificativa": "Visão funcionalista do crime.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 104,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A teoria da associação diferencial de Edwin Sutherland explica o crime como um comportamento aprendido por meio da interação social com outros criminosos.",
+        "gabarito": "C",
+        "justificativa": "Processo de aprendizado de técnicas e motivações criminosas.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 105,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A teoria do controle social questiona 'por que as pessoas cometem crimes' em vez de focar 'por que as pessoas obedecem às leis'.",
+        "gabarito": "C",
+        "justificativa": "Inversão do foco para os laços sociais (Hirschi).",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 106,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A criminologia crítica, de base marxista, sustenta que o sistema penal é um instrumento de opressão da classe dominante sobre o proletariado.",
+        "gabarito": "C",
+        "justificativa": "Fundamento da teoria crítica ou radical.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 107,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A Teoria das Janelas Quebradas (Broken Windows Theory) sugere que a tolerância a pequenas desordens urbanas encoraja a prática de crimes mais graves.",
+        "gabarito": "C",
+        "justificativa": "Base para políticas de tolerância zero.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 108,
+        "disciplina": "Criminologia",
+        "topico": "2.1 Teorias da Criminalidade",
+        "enunciado": "A Teoria da Neutralização explica como os criminosos justificam suas condutas para si mesmos, eliminando o sentimento de culpa.",
+        "gabarito": "C",
+        "justificativa": "Ex: negação de responsabilidade, negação de dano.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 109,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A 'vítima ideal' na vitimologia é aquela que demonstra resistência heroica e colabora ativamente com o agressor para sobreviver.",
+        "gabarito": "E",
+        "justificativa": "A vítima ideal é aquela vista como totalmente inocente e vulnerável socialmente.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 110,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "O conceito de 'itinerário da vítima' refere-se ao caminho percorrido pela vítima desde o crime até o desfecho do processo judicial.",
+        "gabarito": "C",
+        "justificativa": "Conceito de Vitimização.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 111,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A síndrome de Estocolmo é um fenômeno vitimológico onde a vítima desenvolve laços afetivos ou de empatia com seu sequestrador/agressor.",
+        "gabarito": "C",
+        "justificativa": "Fenômeno psicológico documentado em vitimologia.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 112,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A vitimização direta é aquela sofrida por familiares e amigos próximos da vítima principal.",
+        "gabarito": "E",
+        "justificativa": "Essa é a vitimização indireta. A direta é a sofrida pela pessoa alvo do crime.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 113,
+        "disciplina": "Criminologia",
+        "topico": "2.2 Vitimologia",
+        "enunciado": "A 'CIFRA NEGRA' representa os crimes que ocorreram, mas que por desestímulo ou medo da vítima não foram reportados às autoridades.",
+        "gabarito": "C",
+        "justificativa": "Conceito central de estatística criminal.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 114,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção terciária foca na ressocialização do egresso do sistema prisional para evitar a reincidência.",
+        "gabarito": "C",
+        "justificativa": "Público alvo: quem já cometeu crime.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 115,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "A prevenção situacional visa reduzir as oportunidades de crime por meio de barreiras físicas e vigilância tecnológica.",
+        "gabarito": "C",
+        "justificativa": "Foco no ambiente e no custo-benefício para o criminoso.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 116,
+        "disciplina": "Criminologia",
+        "topico": "1.4 Modelos de Prevenção",
+        "enunciado": "O policiamento comunitário é considerado uma estratégia de prevenção secundária por atuar na raiz social dos conflitos antes da eclosão do crime.",
+        "gabarito": "E",
+        "justificativa": "Geralmente classificado como prevenção primária (social) ou secundária (focada se em áreas de risco), mas o item erra ao generalizar ou fundamentar mal.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
