@@ -3148,5 +3148,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Art. 5º da CADH.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 320,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O modelo OSI possui 7 camadas, sendo a camada física a mais baixa e a camada de aplicação a mais alta.",
+        "gabarito": "C",
+        "justificativa": "Estrutura do modelo OSI.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 321,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "1. Estruturas Lógicas",
+        "enunciado": "A proposição 'P e Q' só é verdadeira se ambas as proposições simples forem verdadeiras.",
+        "gabarito": "C",
+        "justificativa": "Tabela-verdade da conjunção.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 322,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "A Câmara dos Deputados compõe-se de representantes do povo, eleitos, pelo sistema proporcional, em cada Estado, em cada Território e no Distrito Federal.",
+        "gabarito": "C",
+        "justificativa": "Art. 45 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 323,
+        "disciplina": "Direitos Humanos",
+        "topico": "3.1 Corte Interamericana de Direitos Humanos",
+        "enunciado": "Apenas os Estados Partes e a Comissão têm o direito de submeter um caso à decisão da Corte.",
+        "gabarito": "C",
+        "justificativa": "Art. 61 da CADH.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 324,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "Na amostragem estratificada, a população é dividida em grupos homogêneos e uma amostra aleatória é extraída de cada grupo.",
+        "gabarito": "C",
+        "justificativa": "Definição de amostragem estratificada.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
