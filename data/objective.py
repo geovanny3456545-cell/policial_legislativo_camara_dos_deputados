@@ -2218,5 +2218,75 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Norma interna de policiamento.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 223,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "1. Intervenção Federal (Art. 34 a 36 CF/88)",
+        "enunciado": "A intervenção federal para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação dependerá de solicitação do Poder Legislativo ou do Poder Executivo coacto ou impedido, ou de requisição do Supremo Tribunal Federal, se a coação for exercida contra o Poder Judiciário.",
+        "gabarito": "C",
+        "justificativa": "Art. 36, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 224,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XIV da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 225,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "É da competência exclusiva do Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa.",
+        "gabarito": "C",
+        "justificativa": "Art. 49, V da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 226,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+        "gabarito": "C",
+        "justificativa": "Art. 67 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 227,
+        "disciplina": "Direito Administrativo",
+        "topico": "1. Princípios da Administração Pública",
+        "enunciado": "O princípio da especialidade refere-se à descentralização administrativa, por meio da qual são criadas entidades para o desempenho de finalidades específicas.",
+        "gabarito": "C",
+        "justificativa": "Relacionado ao princípio da reserva legal e descentralização.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 228,
+        "disciplina": "Direito Administrativo",
+        "topico": "6. Responsabilidade Civil do Estado",
+        "enunciado": "No caso de danos causados por multidões, a responsabilidade do Estado é, em regra, subjetiva, baseada na omissão estatal em prover a segurança necessária.",
+        "gabarito": "C",
+        "justificativa": "Entendimento jurisprudencial sobre responsabilidade por atos de terceiros/omissão.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 229,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.",
+        "gabarito": "C",
+        "justificativa": "Princípio da inafastabilidade da jurisdição (Art. 5º, XXXV).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
