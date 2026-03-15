@@ -2288,5 +2288,105 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Princípio da inafastabilidade da jurisdição (Art. 5º, XXXV).",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 230,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "A lei penal não retroagirá, salvo para beneficiar o réu.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XL da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 231,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Art. 5º CF/88",
+        "enunciado": "A pequena propriedade rural, assim definida em lei, desde que trabalhada pela família, não será objeto de penhora para pagamento de débitos decorrentes de sua atividade produtiva, dispondo a lei sobre os meios de financiar o seu desenvolvimento.",
+        "gabarito": "C",
+        "justificativa": "Art. 5º, XXVI da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 232,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete privativamente à Câmara dos Deputados autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.",
+        "gabarito": "C",
+        "justificativa": "Art. 51, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 233,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Atribuições do Congresso Nacional",
+        "enunciado": "Compete privativamente ao Senado Federal processar e julgar o Presidente e o Vice-Presidente da República nos crimes de responsabilidade, bem como os Ministros de Estado e os Comandantes da Marinha, do Exército e da Aeronáutica nos crimes da mesma natureza conexos com aqueles.",
+        "gabarito": "C",
+        "justificativa": "Art. 52, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 234,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "A Constituição poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal.",
+        "gabarito": "C",
+        "justificativa": "Art. 60, I da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 235,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Poder Legislativo",
+        "enunciado": "Cada legislatura terá a duração de quatro anos.",
+        "gabarito": "C",
+        "justificativa": "Art. 44, parágrafo único da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 236,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Direitos e Garantias Fundamentais",
+        "enunciado": "São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição.",
+        "gabarito": "C",
+        "justificativa": "Art. 6º da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 237,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "2. PNI (Decreto 8.793/2016)",
+        "enunciado": "A Política Nacional de Inteligência é o documento de mais alto nível que fixa as diretrizes da atividade de inteligência no país.",
+        "gabarito": "C",
+        "justificativa": "Conceito básico da PNI.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 238,
+        "disciplina": "Atividade de Inteligência",
+        "topico": "4. Operações de Inteligência",
+        "enunciado": "As operações de inteligência visam à obtenção de dados de difícil acesso por meios convencionais, exigindo técnicas especializadas e sigilo absoluto.",
+        "gabarito": "C",
+        "justificativa": "Doutrina de Inteligência.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 239,
+        "disciplina": "Criminologia",
+        "topico": "1.3 Objetos da criminologia",
+        "enunciado": "Os objetos da criminologia moderna são: o crime, o criminoso, a vítima e o controle social.",
+        "gabarito": "C",
+        "justificativa": "Doutrina clássica da criminologia.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
