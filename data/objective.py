@@ -1828,5 +1828,85 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Na responsabilidade objetiva, dispensa-se a prova de dolo ou culpa do agente; basta o dano e o nexo causal.",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 184,
+        "disciplina": "Direito Administrativo",
+        "topico": "2. Atos Administrativos",
+        "enunciado": "Atos administrativos discricionários são aqueles em que a lei confere à autoridade uma margem de liberdade para decidir com base na conveniência e oportunidade (mérito administrativo).",
+        "gabarito": "C",
+        "justificativa": "Conceito de discricionariedade.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 185,
+        "disciplina": "Direito Administrativo",
+        "topico": "3. Licitações e Contratos",
+        "enunciado": "Na Lei 14.133/2021, a modalidade 'Diálogo Competitivo' é voltada para contratações que envolvam inovação tecnológica ou técnica e que não podem ter seus requisitos definidos em especificações técnicas básicas.",
+        "gabarito": "C",
+        "justificativa": "Novidade da nova lei de licitações.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 186,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Processo Legislativo",
+        "enunciado": "A iniciativa das leis complementares e ordinárias cabe a qualquer membro ou Comissão da Câmara dos Deputados, do Senado Federal ou do Congresso Nacional, ao Presidente da República, ao Supremo Tribunal Federal, aos Tribunais Superiores, ao Procurador-Geral da República e aos cidadãos.",
+        "gabarito": "C",
+        "justificativa": "Art. 61 da CF/88.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 187,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "A Mesa da Câmara dos Deputados é composta pelo Presidente, dois Vice-Presidentes e quatro Secretários, eleitos para mandato de dois anos, vedada a recondução para o mesmo cargo na eleição imediatamente subsequente na mesma legislatura.",
+        "gabarito": "C",
+        "justificativa": "Regra regimental e constitucional (Art. 57, §4º da CF/88).",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 188,
+        "disciplina": "Direito Administrativo",
+        "topico": "5. AFO (Lei 4.320/64)",
+        "enunciado": "O empenho de despesa é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição.",
+        "gabarito": "C",
+        "justificativa": "Art. 58 da Lei 4.320/64.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 189,
+        "disciplina": "Direito Administrativo",
+        "topico": "7. Improbidade Administrativa",
+        "enunciado": "Conforme a nova redação da Lei 8.429/1992 (Lei de Improbidade Administrativa), exige-se dolo específico para a configuração de qualquer ato de improbidade, não sendo mais admitida a modalidade culposa.",
+        "gabarito": "C",
+        "justificativa": "Alteração trazida pela Lei 14.230/2021.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 190,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Resolução nº 18/2003",
+        "enunciado": "O Diretor da Coordenação de Polícia detém a competência para instaurar inquéritos policiais por crimes ocorridos no âmbito da Câmara dos Deputados.",
+        "gabarito": "C",
+        "justificativa": "Norma interna da Polícia Legislativa.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 191,
+        "disciplina": "Direito Constitucional e Legislação Interna",
+        "topico": "Regimento Interno",
+        "enunciado": "As sessões da Câmara dos Deputados são, em regra, públicas, podendo ser secretas por deliberação da Casa.",
+        "gabarito": "C",
+        "justificativa": "Transparência do processo legislativo.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
     }
 ]
