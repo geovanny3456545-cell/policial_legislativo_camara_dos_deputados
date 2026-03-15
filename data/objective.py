@@ -3048,5 +3048,55 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Conceito de redes.",
         "fonte": "Existente (Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 310,
+        "disciplina": "Direitos Humanos",
+        "topico": "2.1 Proteção das Vítimas e Testemunhas",
+        "enunciado": "A proteção policial para vítimas e testemunhas pode incluir a escolta, a segurança na residência e a assistência jurídica e psicológica.",
+        "gabarito": "C",
+        "justificativa": "Lei 9.807/1999.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 311,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "10. Amostragem",
+        "enunciado": "A amostragem por conveniência é um método de amostragem probabilística, pois todos os elementos da população têm uma chance conhecida e não nula de serem selecionados.",
+        "gabarito": "E",
+        "justificativa": "A amostragem por conveniência é não-probabilística.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 312,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "O Barramento (Bus) é o conjunto de trilhas condutoras que permite a comunicação entre os diversos componentes do computador, como processador e memória.",
+        "gabarito": "C",
+        "justificativa": "Conceito de hardware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 313,
+        "disciplina": "Direitos Humanos",
+        "topico": "Decreto nº 12.341/2024",
+        "enunciado": "O Decreto nº 12.341/2024 estabelece a proibição do uso de técnicas de contenção que comprimam o tórax ou o pescoço da pessoa detida.",
+        "gabarito": "C",
+        "justificativa": "Diretrizes de direitos humanos no policiamento.",
+        "fonte": "Inédita (Legislação Atual)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 314,
+        "disciplina": "Raciocínio Lógico e Estatística",
+        "topico": "2. Diagramas Lógicos",
+        "enunciado": "Se 'Algum A é B' e 'Todo B é C', logo podemos concluir que 'Algum A é C'.",
+        "gabarito": "C",
+        "justificativa": "Silogismo categórico válido.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
