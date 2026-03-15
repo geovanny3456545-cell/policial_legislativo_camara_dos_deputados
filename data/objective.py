@@ -1558,5 +1558,95 @@ OBJECTIVE_QUESTIONS = [
         "justificativa": "Definição do processo sistemático (escolha a cada k elementos).",
         "fonte": "Inédita (Benchmark Cebraspe)",
         "tipo": "C/E"
+    },
+    {
+        "id": 157,
+        "disciplina": "Informática e Dados",
+        "topico": "2. Malwares Específicos",
+        "enunciado": "Spywares são malwares que monitoram as atividades do usuário e enviam as informações coletadas para terceiros sem o consentimento do proprietário.",
+        "gabarito": "C",
+        "justificativa": "Definição de Spyware.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 158,
+        "disciplina": "Informática e Dados",
+        "topico": "4. Nuvem e Virtualização",
+        "enunciado": "No modelo SaaS (Software as a Service), o usuário final acessa o software diretamente pela internet, sem se preocupar com a instalação ou manutenção do hardware e do sistema operacional.",
+        "gabarito": "C",
+        "justificativa": "Definição de SaaS.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 159,
+        "disciplina": "Informática e Dados",
+        "topico": "5. Python para Dados",
+        "enunciado": "Em Python, as listas são estruturas de dados imutáveis, ou seja, seus elementos não podem ser alterados após a criação.",
+        "gabarito": "E",
+        "justificativa": "Listas são mutáveis. As tuplas é que são imutáveis.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 160,
+        "disciplina": "Informática e Dados",
+        "topico": "6. IA Generativa",
+        "enunciado": "Modelos de linguagem como o GPT (Generative Pre-trained Transformer) baseiam-se na arquitetura de redes neurais recorrentes (RNN) para processar longas sequências de texto.",
+        "gabarito": "E",
+        "justificativa": "GPT baseia-se na arquitetura Transformer, que utiliza o mecanismo de Atenção, superando as limitações das RNNs.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 161,
+        "disciplina": "Informática e Dados",
+        "topico": "7. Segurança da Informação",
+        "enunciado": "A criptografia simétrica utiliza uma única chave para encriptar e decriptar a informação, exigindo que o emissor e o receptor compartilhem a mesma chave secreta.",
+        "gabarito": "C",
+        "justificativa": "Conceito de chave simétrica.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 162,
+        "disciplina": "Informática e Dados",
+        "topico": "8. Big Data",
+        "enunciado": "A característica 'Veracidade' no Big Data refere-se à qualidade e fidedignidade dos dados coletados, combatendo o ruído e as informações imprecisas.",
+        "gabarito": "C",
+        "justificativa": "Um dos 5 Vs do Big Data.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 163,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O protocolo HTTPS é a versão segura do HTTP, utilizando os protocolos SSL/TLS para cifrar a comunicação entre o navegador e o servidor.",
+        "gabarito": "C",
+        "justificativa": "Segurança em redes.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 164,
+        "disciplina": "Informática e Dados",
+        "topico": "10. Hardware e SO",
+        "enunciado": "A memória RAM é considerada uma memória volátil, pois seus dados são apagados quando o computador é desligado.",
+        "gabarito": "C",
+        "justificativa": "Característica da RAM.",
+        "fonte": "Inédita (Benchmark Cebraspe)",
+        "tipo": "C/E"
+    },
+    {
+        "id": 165,
+        "disciplina": "Informática e Dados",
+        "topico": "9. Redes de Computadores",
+        "enunciado": "O endereço IP (Internet Protocol) na versão IPv4 é composto por 128 bits, permitindo um número quase ilimitado de dispositivos conectados.",
+        "gabarito": "E",
+        "justificativa": "O IPv4 possui 32 bits. O IPv6 é que possui 128 bits.",
+        "fonte": "Existente (Cebraspe)",
+        "tipo": "C/E"
     }
 ]
