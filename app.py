@@ -4,7 +4,7 @@ import time
 from data.objective import OBJECTIVE_QUESTIONS
 from data.discursive import DISCURSIVE_CASES
 
-VERSION = "1.1.1"
+VERSION = "1.1.2"
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
@@ -182,7 +182,7 @@ if mode == "Arena Objetiva (C/E)":
                 user_choice_val = "C" if user_choice == "Certo" else "E"
             
             with col_btn1:
-                if st.button("⚖️ Corrigir", key=f"check_{q['id']}", use_container_width=True):
+                if st.button("✔️ Enviar e Ver Gabarito", key=f"check_{q['id']}", use_container_width=True):
                     if user_choice_val == q['gabarito']:
                         st.session_state[f"res_{q['id']}"] = ("success", f"<b>✅ Correto!</b><br><span class='justification-text'><b>Justificativa:</b> {q['justificativa']}</span>")
                         if q['id'] not in st.session_state.stats["respondidas"]:
