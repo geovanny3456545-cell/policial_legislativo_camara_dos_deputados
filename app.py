@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
+import time
 from data.objective import OBJECTIVE_QUESTIONS
 from data.discursive import DISCURSIVE_CASES
+
+VERSION = "1.1.0"
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
@@ -55,17 +58,52 @@ st.markdown("""
         font-size: 1.2rem;
         margin-bottom: 1rem;
     }
+
+    .stat-card {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+    
+    .feedback-container {
+        width: 100% !important;
+        margin: 10px 0;
+        padding: 1rem;
+        border-radius: 12px;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+    .feedback-success {
+        background: rgba(46, 204, 113, 0.1);
+        border-left: 5px solid #2ecc71;
+        color: #2ecc71;
+    }
+    .feedback-error {
+        background: rgba(231, 76, 60, 0.1);
+        border-left: 5px solid #e74c3c;
+        color: #e74c3c;
+    }
+    .justification-text {
+        color: #ffffff;
+        margin-top: 8px;
+        font-weight: 300;
+        display: block;
+    }
     </style>
     """, unsafe_allow_html=True)
 
 # --- INICIALIZAÇÃO DO ESTADO ---
 if 'stats' not in st.session_state:
-    st.session_state.stats = {"acertos": 0, "total": 0, "respondidas": []}
+    st.session_state.stats = {"acertos": 0, "total": 0, "respondidas": [], "history": {}}
+if 'discarded_ids' not in st.session_state:
+    st.session_state.discarded_ids = []
 
 # --- SIDEBAR ---
 with st.sidebar:
     st.markdown('<div class="sidebar-title">🛡️ POLICIAL LEGISLATIVO</div>', unsafe_allow_html=True)
-    mode = st.radio("Selecione o Modo Estudo:", ["Arena Objetiva (C/E)", "Laboratório Discursivo", "Estatísticas"])
+    mode = st.radio("Selecione o Modo Estudo:", ["Arena Objetiva (C/E)", "Laboratório Discursivo"])
     
     st.divider()
     
@@ -76,6 +114,8 @@ with st.sidebar:
     if selected_subject != "Todas":
         topics = list(sorted(list(set([q['topico'] for q in OBJECTIVE_QUESTIONS if q['disciplina'] == selected_subject]))))
         selected_topic = st.selectbox("Filtrar Tópico:", ["Todos"] + topics)
+
+    st.sidebar.caption(f"Versão do Sistema: {VERSION}")
 
 # --- CABEÇALHO ---
 st.markdown(f"""
@@ -88,14 +128,43 @@ st.markdown(f"""
 # --- LÓGICA DE MODOS ---
 
 if mode == "Arena Objetiva (C/E)":
-    st.subheader("📝 Questões de Certo ou Errado")
-    
-    # Filtragem
-    filtered_qs = OBJECTIVE_QUESTIONS
+    # 1. Filtragem Centralizada
+    filtered_qs = [q for q in OBJECTIVE_QUESTIONS if q['id'] not in st.session_state.discarded_ids]
     if selected_subject != "Todas":
         filtered_qs = [q for q in filtered_qs if q['disciplina'] == selected_subject]
         if selected_topic != "Todos":
             filtered_qs = [q for q in filtered_qs if q['topico'] == selected_topic]
+
+    # 2. Título do Contexto
+    title_context = "Geral"
+    if selected_subject != "Todas":
+        title_context = selected_subject if selected_topic == "Todos" else f"{selected_subject} > {selected_topic}"
+
+    st.markdown(f"## 📝 Arena Objetiva - {title_context}")
+
+    # 3. Cálculo de Estatísticas Persistentes (Sempre Visíveis)
+    history = st.session_state.stats["history"]
+    history_ids = [q['id'] for q in filtered_qs]
+    topic_history = [history[qid] for qid in history_ids if qid in history]
+    
+    t_total_res = len(topic_history)
+    t_acertos = topic_history.count(True)
+    t_perc = (t_acertos / t_total_res * 100) if t_total_res > 0 else 0
+
+    # 4. Display de Estatísticas (Uso de container e colunas nativas)
+    with st.container():
+        st.markdown(f"**Estatísticas do Recorte Selecionado:**")
+        c1, c2, c3 = st.columns(3)
+        with c1:
+            st.metric("Total no Tópico", len(filtered_qs))
+        with c2:
+            st.metric("Questões Feitas", t_total_res)
+        with c3:
+            st.metric("Aproveitamento", f"{t_perc:.1f}%")
+        st.progress(t_perc / 100 if t_perc <= 100 else 1.0)
+    
+    st.divider()
+    st.write("### Questões de Certo ou Errado")
     
     for q in filtered_qs:
         with st.container():
@@ -106,33 +175,54 @@ if mode == "Arena Objetiva (C/E)":
                 </div>
                 """, unsafe_allow_html=True)
             
-            col1, col2, col3, col4 = st.columns([1, 1, 1, 3])
-            with col1:
-                if st.button(f"Certo", key=f"c_{q['id']}"):
-                    st.session_state[f"answered_{q['id']}"] = True
-                    if q['gabarito'] == "C": st.success("Correto!")
-                    else: st.error("Errado!")
-                    st.info(f"**Justificativa:** {q['justificativa']}")
-            with col2:
-                if st.button(f"Errado", key=f"e_{q['id']}"):
-                    st.session_state[f"answered_{q['id']}"] = True
-                    if q['gabarito'] == "E": st.success("Correto!")
-                    else: st.error("Errado!")
-                    st.info(f"**Justificativa:** {q['justificativa']}")
+            col_radio, col_btn1, col_btn2, col_btn3 = st.columns([1.5, 1, 1, 1])
             
-            with col3:
-                if st.button("⚖️ Contestar", key=f"cont_{q['id']}"):
-                    st.session_state[f"show_contest_{q['id']}"] = True
+            with col_radio:
+                user_choice = st.radio("Resposta:", ["Certo", "Errado"], key=f"rad_{q['id']}", horizontal=True, label_visibility="collapsed")
+                user_choice_val = "C" if user_choice == "Certo" else "E"
+            
+            with col_btn1:
+                if st.button("⚖️ Corrigir", key=f"check_{q['id']}", use_container_width=True):
+                    if user_choice_val == q['gabarito']:
+                        st.session_state[f"res_{q['id']}"] = ("success", f"<b>✅ Correto!</b><br><span class='justification-text'><b>Justificativa:</b> {q['justificativa']}</span>")
+                        if q['id'] not in st.session_state.stats["respondidas"]:
+                            st.session_state.stats["acertos"] += 1
+                            st.session_state.stats["total"] += 1
+                            st.session_state.stats["respondidas"].append(q['id'])
+                            st.session_state.stats["history"][q['id']] = True
+                    else:
+                        st.session_state[f"res_{q['id']}"] = ("error", f"<b>❌ Errado!</b> Gabarito: <b>{q['gabarito']}</b><br><span class='justification-text'><b>Justificativa:</b> {q['justificativa']}</span>")
+                        if q['id'] not in st.session_state.stats["respondidas"]:
+                            st.session_state.stats["total"] += 1
+                            st.session_state.stats["respondidas"].append(q['id'])
+                            st.session_state.stats["history"][q['id']] = False
+            
+            with col_btn2:
+                if st.button("🗑️ Descartar", key=f"discard_{q['id']}", use_container_width=True):
+                    st.session_state.discarded_ids.append(q['id'])
+                    st.rerun()
+
+            with col_btn3:
+                if st.button("📝 Contestar", key=f"cont_{q['id']}", use_container_width=True):
+                    st.session_state[f"show_contest_{q['id']}"] = not st.session_state.get(f"show_contest_{q['id']}", False)
+
+            # Exibição do Resultado da Correção (Wide & Stylized)
+            if f"res_{q['id']}" in st.session_state:
+                res_type, res_html = st.session_state[f"res_{q['id']}"]
+                css_class = "feedback-success" if res_type == "success" else "feedback-error"
+                st.markdown(f"""
+                    <div class="feedback-container {css_class}">
+                        {res_html}
+                    </div>
+                    """, unsafe_allow_html=True)
 
             if st.session_state.get(f"show_contest_{q['id']}"):
-                reason = st.text_area("Descreva o motivo da sua contestação:", key=f"reason_{q['id']}")
-                if st.button("Submeter Recurso", key=f"sub_{q['id']}"):
-                    st.markdown("#### 🤖 Análise do Recurso (Padrão Cebraspe)")
-                    st.info("ℹ️ Analisando sua fundamentação com base no edital e na jurisprudência do Cebraspe...")
-                    import time
-                    time.sleep(1)
-                    st.success(f"✅ **Análise da IA**: Sua contestação sobre o tema **{q['topico']}** foi validada tecnicamente. No entanto, o gabarito oficial **{q['gabarito']}** é mantido. \n\n**Fundamentação**: De acordo com a doutrina dominante para este cargo, {q['justificativa'].lower()} Além disso, as pegadinhas da banca costumam focar exatamente neste ponto. Continue treinando seu poder de argumentação!")
-                    st.markdown(f"> *Embora o ponto levantado seja relevante, a banca Cebraspe mantém o entendimento de que a assertiva está correta/incorreta conforme a literalidade da norma ou jurisprudência consolidada citada na justificativa: {q['justificativa']}. O recurso foi INDEFERIDO.*")
+                with st.expander("Recurso Administrativo", expanded=True):
+                    reason = st.text_area("Descreva o motivo da sua contestação:", key=f"reason_{q['id']}")
+                    if st.button("Submeter Recurso", key=f"sub_{q['id']}"):
+                        st.info("ℹ️ Analisando sua fundamentação...")
+                        time.sleep(1)
+                        st.success(f"✅ **Análise da IA**: Sua contestação sobre o tema **{q['topico']}** foi validada tecnicamente. No entanto, o gabarito oficial **{q['gabarito']}** é mantido. \n\n**Fundamentação**: De acordo com a doutrina dominante para este cargo, {q['justificativa'].lower()}")
 
 elif mode == "Laboratório Discursivo":
     st.subheader("✍️ Casos Práticos e Peças Técnicas")
@@ -205,43 +295,3 @@ elif mode == "Laboratório Discursivo":
                 for item in case['espelho']:
                     st.write(f"- {item}")
                 st.markdown(f"**Temas para Revisão:** {', '.join(case['revisao_temas'])}")
-
-elif mode == "Estatísticas":
-    st.subheader("📊 Seu Desempenho Global")
-    
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Total na Base", len(OBJECTIVE_QUESTIONS))
-    with col2:
-        st.metric("Respondidas", st.session_state.stats["total"])
-    with col3:
-        percentage = (st.session_state.stats["acertos"] / st.session_state.stats["total"] * 100) if st.session_state.stats["total"] > 0 else 0
-        st.metric("Aproveitamento", f"{percentage:.1f}%")
-
-    st.divider()
-    st.subheader("🎯 Cobertura do Edital (Garantia 10+)")
-    
-    df_obj = pd.DataFrame(OBJECTIVE_QUESTIONS)
-    # Cálculo de métricas por tópico
-    stats_df = df_obj.groupby(['disciplina', 'topico']).size().reset_index(name='Quantidade')
-    total_topics = len(stats_df)
-    covered_topics = len(stats_df[stats_df['Quantidade'] >= 10])
-    coverage_pct = (covered_topics / total_topics * 100) if total_topics > 0 else 0
-    
-    c1, c2 = st.columns([1, 3])
-    with c1:
-        st.metric("Tópicos com 10+ Qs", f"{covered_topics}/{total_topics}", f"{coverage_pct:.1f}%")
-    with c2:
-        st.progress(coverage_pct / 100)
-        if coverage_pct == 100:
-            st.success("✨ **Syllabus Integralmente Coberto!** Todos os tópicos possuem o mínimo de 10 questões solicitado.")
-
-    with st.expander("🔍 Ver Auditoria Detalhada por Tópico"):
-        st.dataframe(stats_df.sort_values(by=['disciplina', 'Quantidade']), use_container_width=True)
-
-    # Gráfico por disciplina
-    st.subheader("📈 Distribuição por Disciplina")
-    subject_counts = df_obj['disciplina'].value_counts()
-    st.bar_chart(subject_counts)
-    
-    st.success("Dica: Use os filtros na barra lateral para focar nos temas onde você tem menor aproveitamento!")
